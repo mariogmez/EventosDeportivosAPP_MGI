@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\ANDROID\\ENTREGABLES\\Desafio_III_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\20db5765a13debc2bf963a11afabefdf\\transformed\\material-1.5.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",

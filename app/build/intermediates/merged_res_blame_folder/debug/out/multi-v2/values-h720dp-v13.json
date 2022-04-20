@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\ANDROID\\ENTREGABLES\\Desafio_III_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\43b67212c2e2543d35a43b7215ae0f32\\transformed\\appcompat-1.4.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",

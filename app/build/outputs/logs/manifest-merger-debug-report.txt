@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\mario\.gradle\caches\transforms-3\f256d0aed978a0e3f4991adcdcecab04\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\mario\.gradle\caches\transforms-3\ef34786e3b7bccbdd4172bb3759f8622\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\mario\.gradle\caches\transforms-3\20db5765a13debc2bf963a11afabefdf\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
@@ -88,27 +88,27 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\mario\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mario\.gradle\caches\transforms-3\cd39a8a478de2c06e64d8b667a35610d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\mario\.gradle\caches\transforms-3\185312c83b0d029064aa0698c3564168\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\mario\.gradle\caches\transforms-3\354f3dff0801544e459974952229102b\transformed\grpc-android-1.41.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:4:5-42
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:4:5-42
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:6:5-44:19
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:6:5-44:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\mario\.gradle\caches\transforms-3\ef34786e3b7bccbdd4172bb3759f8622\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\mario\.gradle\caches\transforms-3\ef34786e3b7bccbdd4172bb3759f8622\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\mario\.gradle\caches\transforms-3\20db5765a13debc2bf963a11afabefdf\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -180,79 +180,79 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mario\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\mario\.gradle\caches\transforms-3\65146017b2acacebe1afd8f35119708f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:9:9-41
 	xmlns:tools
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:6:18-64
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:6:18-64
 	android:roundIcon
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:12:9-53
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:12:9-53
 activity#com.example.desafio_iii_mgi.Admin.LIstadoEventosActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:13:9-15:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:13:9-15:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:15:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:14:13-57
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:14:13-57
 activity#com.example.desafio_iii_mgi.FichaUsuarioActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:16:9-18:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:17:13-49
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:17:13-49
 activity#com.example.desafio_iii_mgi.Admin.ListadoUsuariosActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:19:9-21:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:20:13-58
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:20:13-58
 activity#com.example.desafio_iii_mgi.Admin.AdminActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:22:9-24:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:23:13-48
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:23:13-48
 activity#com.example.desafio_iii_mgi.Users.UserActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:25:9-27:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:26:13-47
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:26:13-47
 activity#com.example.desafio_iii_mgi.RegisterActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:28:9-30:40
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:29:13-45
 activity#com.example.desafio_iii_mgi.MainActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:31:9-39:20
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:31:9-39:20
 	android:exported
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:37:27-74
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:40:9-43:49
+ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:40:9-43:49
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
 	android:clearTaskOnLaunch
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
 	android:screenOrientation
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:42:13-49
 		REJECTED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
 	android:stateNotNeeded
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
@@ -261,13 +261,13 @@ MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradl
 	android:theme
 		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\7e7e0929a309fdf4403cec27fa0d727f\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
 	tools:replace
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:43:13-46
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:43:13-46
 	android:name
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml:41:13-74
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:41:13-74
 uses-sdk
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\mario\.gradle\caches\transforms-3\f256d0aed978a0e3f4991adcdcecab04\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\mario\.gradle\caches\transforms-3\f256d0aed978a0e3f4991adcdcecab04\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\mario\.gradle\caches\transforms-3\ef34786e3b7bccbdd4172bb3759f8622\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:8:5-10:41
@@ -436,16 +436,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\mar
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\mario\.gradle\caches\transforms-3\185312c83b0d029064aa0698c3564168\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\mario\.gradle\caches\transforms-3\354f3dff0801544e459974952229102b\transformed\grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.41.0] C:\Users\mario\.gradle\caches\transforms-3\354f3dff0801544e459974952229102b\transformed\grpc-android-1.41.0\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\mario\Documents\MEGA\Android\ANDROID\ENTREGABLES\Desafio_III_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.firebaseui:firebase-ui-auth:7.2.0] C:\Users\mario\.gradle\caches\transforms-3\ef34786e3b7bccbdd4172bb3759f8622\transformed\firebase-ui-auth-7.2.0\AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\9a5e1763c98de50ad4e5cfbd5929a161\transformed\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\ANDROID\\ENTREGABLES\\Desafio_III_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\4d06cbe0cc2a72b1a0526dc999accb37\\transformed\\play-services-basement-18.0.0\\res\\values-ro\\values.xml",
