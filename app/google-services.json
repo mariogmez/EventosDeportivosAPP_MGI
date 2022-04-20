@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "906366645918",
+    "project_id": "desafioiii-listaeventos",
+    "storage_bucket": "desafioiii-listaeventos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906366645918:android:5590a33b915944f32bed8f",
+        "android_client_info": {
+          "package_name": "com.example.desafio_iii_mgi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906366645918-ljvljptvtn5eu8tlegaq672d2n7od4a8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desafio_iii_mgi",
+            "certificate_hash": "ff12f78e77f51db897abf7b84892744e2d2116bc"
+          }
+        },
+        {
+          "client_id": "906366645918-7psm9p6lop8s9q6r0aadnn1kmmtaiol0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906366645918-7psm9p6lop8s9q6r0aadnn1kmmtaiol0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

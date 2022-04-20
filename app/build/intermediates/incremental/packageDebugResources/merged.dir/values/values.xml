@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparente">#00000000</color>
+    <color name="verdePastel">#81C784</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Desafio_III_MGI</string>
+    <string name="default_web_client_id" translatable="false">906366645918-7psm9p6lop8s9q6r0aadnn1kmmtaiol0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">906366645918</string>
+    <string name="google_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
+    <string name="google_app_id" translatable="false">1:906366645918:android:5590a33b915944f32bed8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
+    <string name="google_storage_bucket" translatable="false">desafioiii-listaeventos.appspot.com</string>
+    <string name="prefs_file">com.example.com.example.desafio_iii_mgi.PREFERENCE_FILE_KEY</string>
+    <string name="project_id" translatable="false">desafioiii-listaeventos</string>
+    <string name="request_id_token">906366645918-ljvljptvtn5eu8tlegaq672d2n7od4a8.apps.googleusercontent.com</string>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/verdePastel</item>
+    </style>
+    <style name="Theme.Desafio_III_MGI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/verdePastel</item>
+        <item name="colorPrimaryVariant">@color/verdePastel</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/verdePastel</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/verdePastel</item>
+        <item name="android:textViewStyle">@color/black</item>
+
+    </style>
+</resources>

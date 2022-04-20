@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">906366645918-7psm9p6lop8s9q6r0aadnn1kmmtaiol0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">906366645918</string>
+    <string name="google_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
+    <string name="google_app_id" translatable="false">1:906366645918:android:5590a33b915944f32bed8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
+    <string name="google_storage_bucket" translatable="false">desafioiii-listaeventos.appspot.com</string>
+    <string name="project_id" translatable="false">desafioiii-listaeventos</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Desafio_III_MGI</string>
+    <string name="prefs_file">com.example.com.example.desafio_iii_mgi.PREFERENCE_FILE_KEY</string>
+    <string name="request_id_token">906366645918-ljvljptvtn5eu8tlegaq672d2n7od4a8.apps.googleusercontent.com</string>
+</resources>
