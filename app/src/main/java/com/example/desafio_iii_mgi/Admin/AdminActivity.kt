@@ -32,7 +32,6 @@ class AdminActivity : AppCompatActivity() {
         setContentView(R.layout.activity_admin)
         //supportActionBar?.hide()
 
-        // RECUPERO EL DATOS DEL CORREO
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
         var img: ImageView = findViewById(R.id.imgQR)
