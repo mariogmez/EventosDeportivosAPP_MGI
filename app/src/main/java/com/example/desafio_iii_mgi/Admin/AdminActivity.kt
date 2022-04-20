@@ -30,7 +30,7 @@ class AdminActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin)
-        //supportActionBar?.hide()asddf
+        //supportActionBar?.hide()
 
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
