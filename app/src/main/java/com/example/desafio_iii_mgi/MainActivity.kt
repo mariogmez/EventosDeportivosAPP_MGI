@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     private val db = FirebaseFirestore.getInstance()
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        //ESCONDE LA BARRA DE TAREAS
+        //ESCONDE LA BARRA DE TAREAS OASDFASDF
         supportActionBar?.hide()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
