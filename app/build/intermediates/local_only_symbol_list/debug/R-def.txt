@@ -34,6 +34,7 @@ id editTextTextPassword
 id imgQR
 id linearLayout
 id linearLayout2
+id map
 id rbtnTrayectoDLG
 id rbtnUbicacionDLG
 id swtListUsu

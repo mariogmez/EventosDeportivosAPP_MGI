@@ -2972,6 +2972,7 @@ id listMode
 id list_item
 id logo
 id main_tos_and_pp
+id map
 id masked
 id match_constraint
 id match_parent

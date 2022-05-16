@@ -2971,6 +2971,7 @@ int id listMode 0x7f08012d
 int id list_item 0x7f08012e
 int id logo 0x7f08012f
 int id main_tos_and_pp 0x7f080130
+int id map 0x7f080279
 int id masked 0x7f080131
 int id match_constraint 0x7f080132
 int id match_parent 0x7f080133
