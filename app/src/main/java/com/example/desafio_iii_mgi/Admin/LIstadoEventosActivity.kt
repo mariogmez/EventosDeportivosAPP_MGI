@@ -75,7 +75,9 @@ class LIstadoEventosActivity : AppCompatActivity() {
                     hashMapOf(
                         "nombre" to cajaNombreSWD.text.toString(),
                         "fecha" to cajaFechaSWD.text.toString(),
-                        "hora" to cajaHoraSWD.text.toString()
+                        "hora" to cajaHoraSWD.text.toString(),
+                        "ubicacion" to ""
+
                     )
                 )
                 Toast.makeText(this, "Evento creado correctamente...", Toast.LENGTH_SHORT).show()
@@ -181,7 +183,7 @@ class LIstadoEventosActivity : AppCompatActivity() {
                     dc.document.get("nombre").toString(),
                     dc.document.get("fecha").toString(),
                     dc.document.get("hora").toString(),
-
+                    dc.document.get("ubicacion").toString()
                 )
                 miArrayEvent.add(al)
             }

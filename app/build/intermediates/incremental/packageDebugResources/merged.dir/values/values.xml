@@ -15,6 +15,7 @@
     <string name="google_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
     <string name="google_app_id" translatable="false">1:906366645918:android:5590a33b915944f32bed8f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTHNpHP3pBrJhApmDrR1Ieq4zKNtptalk</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD52mJTtkA0RQ1YRB1yVk90CoxaWYSEAHQ</string>
     <string name="google_storage_bucket" translatable="false">desafioiii-listaeventos.appspot.com</string>
     <string name="prefs_file">com.example.com.example.desafio_iii_mgi.PREFERENCE_FILE_KEY</string>
     <string name="project_id" translatable="false">desafioiii-listaeventos</string>

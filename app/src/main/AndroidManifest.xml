@@ -11,6 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio_III_MGI">
         <activity
+            android:name=".Events.EventoActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
             android:name=".Admin.LIstadoEventosActivity"
             android:exported="false" />
         <activity
