@@ -14,6 +14,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_pwd_icon
 drawable ic_user_icon
+id ConstraintLayoutBase
 id MiRecyclerVWeventos
 id MiRecyclerVWusuarios
 id btnConfirmarDLG
@@ -26,6 +27,9 @@ id btnMenuEscanearQR
 id btnRegistrase
 id btnWithGoogle
 id checkBox
+id constraintLayout
+id constraintLayout2
+id constraintLayout3
 id divider
 id divider2
 id divider3
@@ -34,6 +38,7 @@ id editTextTextPassword
 id imgQR
 id linearLayout
 id linearLayout2
+id map
 id rbtnTrayectoDLG
 id rbtnUbicacionDLG
 id swtListUsu
@@ -57,6 +62,7 @@ id textView7
 id textView8
 id textView9
 id txtApellidosRG
+id txtBtnListaUsus
 id txtContrasenia
 id txtCorreoList
 id txtCorreoRG
@@ -64,18 +70,22 @@ id txtEdad
 id txtEmail
 id txtEventoList
 id txtFechaDLG
+id txtFechaEve
 id txtFichaActiv
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
 id txtFichaNombre
 id txtHoraDLG
+id txtHoraEve
 id txtNombreDLG
+id txtNombreEve
 id txtNombreRG
 id txtRegistro
 id txtUno
 layout activity_admin
 layout activity_dialog
+layout activity_evento
 layout activity_ficha_usuario
 layout activity_listado_eventos
 layout activity_listado_usuarios
@@ -86,6 +96,8 @@ layout list_event
 layout list_usu
 menu menu_opciones
 mipmap ic_launcher
+mipmap ic_launcher1
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id
@@ -93,6 +105,7 @@ string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
+string google_maps_key
 string google_storage_bucket
 string prefs_file
 string project_id

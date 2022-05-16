@@ -1,13 +1,17 @@
 package com.example.desafio_iii_mgi.Adaptadores
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 import com.example.desafio_iii_mgi.Events.Evento
+import com.example.desafio_iii_mgi.Events.EventoActivity
+import com.example.desafio_iii_mgi.FichaUsuarioActivity
 import com.example.desafio_iii_mgi.R
 
 
@@ -47,7 +51,13 @@ class MiAdaptadorRVeven : RecyclerView.Adapter<MiAdaptadorRVeven.ViewHolder>(){
         fun bind(evento: Evento, context: Context, adapter: MiAdaptadorRVeven) {
             nombreEV.text = evento.nombre
 
+            itemView.setOnClickListener(View.OnClickListener {
 
+                val intent = Intent(context, EventoActivity::class.java)
+                intent.putExtra("id", evento.idEvento.toString())
+                itemView.context.startActivity(intent)
+
+            })
 
         }
 

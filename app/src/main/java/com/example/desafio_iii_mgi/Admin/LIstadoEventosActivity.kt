@@ -69,13 +69,19 @@ class LIstadoEventosActivity : AppCompatActivity() {
                 showTimePickerDialog(cajaHoraSWD)
             }
 
+            var lon:Double = 0.0
+            var lat:Double = 0.0
+
             // AÑADE LOS CAMPOS DEL DIALOG A FIREBASE
             view.btnConfirmarDLG.setOnClickListener {
                 db.collection("eventos").document().set(
                     hashMapOf(
                         "nombre" to cajaNombreSWD.text.toString(),
                         "fecha" to cajaFechaSWD.text.toString(),
-                        "hora" to cajaHoraSWD.text.toString()
+                        "hora" to cajaHoraSWD.text.toString(),
+                        "lat" to lon,
+                        "lon" to lat
+
                     )
                 )
                 Toast.makeText(this, "Evento creado correctamente...", Toast.LENGTH_SHORT).show()
@@ -104,16 +110,6 @@ class LIstadoEventosActivity : AppCompatActivity() {
 
     }
 
-    //CONTROLA LA ACCION DE IR HACIA LA VENTANA ANTERIOR (SE EVITA EL FALLO DE AÑADIR UN EVENTO)
-    /*
-    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
-        if (keyCode == KeyEvent.KEYCODE_BACK){
-            val intent = Intent(this, AdminActivity::class.java)
-            startActivity(intent)
-        }
-        return super.onKeyDown(keyCode, event)
-    }
-     */
 
     /*
      * LLAMA A LOS FRAGMENTS CORRESPONDIENTES
@@ -181,7 +177,8 @@ class LIstadoEventosActivity : AppCompatActivity() {
                     dc.document.get("nombre").toString(),
                     dc.document.get("fecha").toString(),
                     dc.document.get("hora").toString(),
-
+                    dc.document.get("lat") as Double,
+                    dc.document.get("lon") as Double
                 )
                 miArrayEvent.add(al)
             }
