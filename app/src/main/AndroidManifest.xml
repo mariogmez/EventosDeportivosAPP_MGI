@@ -5,8 +5,8 @@
 
     <application xmlns:tools="http://schemas.android.com/tools"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="DeportPlus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio_III_MGI">

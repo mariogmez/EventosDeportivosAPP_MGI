@@ -185,13 +185,13 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mario\.gradle\cach
 	android:supportsRtl
 		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:9:9-35
 	xmlns:tools
 		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:6:18-64
 	android:roundIcon
 		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:8:9-44
 	android:allowBackup
 		ADDED from C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme

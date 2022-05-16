@@ -89,10 +89,10 @@
 49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 49-->[androidx.core:core:1.7.0] C:\Users\mario\.gradle\caches\transforms-3\4a67e9b28575fc9b4e461d1d16c0c68a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 50        android:debuggable="true"
-51        android:icon="@mipmap/ic_launcher"
-51-->C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:8:9-43
-52        android:label="@string/app_name"
-52-->C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:9:9-41
+51        android:icon="@mipmap/ic_launcher1"
+51-->C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:8:9-44
+52        android:label="DeportPlus"
+52-->C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:9:9-35
 53        android:roundIcon="@mipmap/ic_launcher_round"
 53-->C:\Users\mario\Documents\MEGA\Android\EventosDeportivosAPP_MGI\app\src\main\AndroidManifest.xml:10:9-54
 54        android:supportsRtl="true"

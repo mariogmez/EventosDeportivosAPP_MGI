@@ -2671,6 +2671,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id ConstraintLayoutBase
 id FUNCTION
 id META
 id MiRecyclerVWeventos
@@ -2829,6 +2830,8 @@ id confirmation_code
 id confirmation_code_layout
 id constraint
 id constraintLayout
+id constraintLayout2
+id constraintLayout3
 id container
 id content
 id contentPanel
@@ -3238,6 +3241,7 @@ id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id txtApellidosRG
+id txtBtnListaUsus
 id txtContrasenia
 id txtCorreoList
 id txtCorreoRG
@@ -3246,7 +3250,6 @@ id txtEmail
 id txtEventoList
 id txtFechaDLG
 id txtFechaEve
-id txtFechaEvento
 id txtFichaActiv
 id txtFichaApe
 id txtFichaEmail
@@ -3528,6 +3531,8 @@ menu example_menu
 menu example_menu2
 menu menu_opciones
 mipmap ic_launcher
+mipmap ic_launcher1
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals fui_error_weak_password
 plurals mtrl_badge_content_description
