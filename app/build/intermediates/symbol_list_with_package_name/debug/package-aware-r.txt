@@ -2828,6 +2828,7 @@ id confirm_button
 id confirmation_code
 id confirmation_code_layout
 id constraint
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -3256,9 +3257,7 @@ id txtHoraEve
 id txtNombreDLG
 id txtNombreEve
 id txtNombreRG
-id txtNone
 id txtRegistro
-id txtUbiEve
 id txtUno
 id unchecked
 id uniform
