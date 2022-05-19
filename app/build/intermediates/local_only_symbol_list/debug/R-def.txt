@@ -26,6 +26,7 @@ id btnMenuCerrarSesion
 id btnMenuEscanearQR
 id btnRegistrase
 id btnWithGoogle
+id cbxSesion
 id checkBox
 id constraintLayout
 id constraintLayout2

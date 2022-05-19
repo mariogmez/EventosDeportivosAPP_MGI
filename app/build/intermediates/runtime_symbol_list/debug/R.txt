@@ -2799,6 +2799,7 @@ int id callMeasure 0x7f080081
 int id cancel_action 0x7f080082
 int id cancel_button 0x7f080083
 int id carryVelocity 0x7f080084
+int id cbxSesion 0x7f08027c
 int id center 0x7f080085
 int id centerCrop 0x7f080086
 int id center_horizontal 0x7f080087

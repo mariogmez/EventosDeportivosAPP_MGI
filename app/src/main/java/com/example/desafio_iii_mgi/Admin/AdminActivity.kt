@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.Toast
 import com.example.desafio_iii_mgi.FichaUsuarioActivity
+import com.example.desafio_iii_mgi.PrecargasApp.Companion.prefs
 import com.example.desafio_iii_mgi.R
 import com.example.desafio_iii_mgi.Users.UserActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -60,7 +61,6 @@ class AdminActivity : AppCompatActivity() {
         btnGestEventos.setOnClickListener {
 
             val intent = Intent(this, LIstadoEventosActivity::class.java)
-            //intent.putExtra("id", correo)
             startActivity(intent)
         }
 
@@ -75,9 +75,7 @@ class AdminActivity : AppCompatActivity() {
         when(item.itemId){
             R.id.btnMenuCerrarSesion -> {
                 Toast.makeText(this, "cerrando sesion", Toast.LENGTH_SHORT).show()
-                val prefs: SharedPreferences.Editor? = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
-                prefs?.clear() //Al cerrar sesión borramos los datos
-                prefs?.apply ()
+                prefs.wipe()
                 FirebaseAuth.getInstance().signOut()
                 onBackPressed()
             }

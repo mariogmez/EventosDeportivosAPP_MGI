@@ -2800,6 +2800,7 @@ id callMeasure
 id cancel_action
 id cancel_button
 id carryVelocity
+id cbxSesion
 id center
 id centerCrop
 id center_horizontal
