@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "com.example.desafio_iii_mgi.app-mergeDebugResources-34:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\d8eb2b660fdb0ffa1caaf03d392c9b98\\transformed\\appcompat-1.4.1\\res\\values-v26\\values-v26.xml",
-                    "from": {
-                        "startLines": "2,3,4,8,12,16",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,130,217,431,657,896",
-                        "endLines": "2,3,7,11,15,16",
-                        "endColumns": "74,86,12,12,12,92",
-                        "endOffsets": "125,212,426,652,891,984"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\b3ec2984791dabcc1e785a801222b481\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3eaf4cbbd45971cda96879e0b7428358\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -27,10 +16,29 @@
                     "to": {
                         "startLines": "17,21,25,29",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "989,1187,1372,1565",
+                        "startOffsets": "889,1087,1272,1465",
                         "endLines": "20,24,28,32",
                         "endColumns": "12,12,12,12",
-                        "endOffsets": "1182,1367,1560,1740"
+                        "endOffsets": "1082,1267,1460,1640"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\04ebec123807861d28d0ae4065f028bd\\transformed\\appcompat-1.4.1\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
                     }
                 }
             ]

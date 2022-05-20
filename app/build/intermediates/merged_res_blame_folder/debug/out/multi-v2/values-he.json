@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "com.example.desafio_iii_mgi.app-mergeDebugResources-34:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\17be9d86b539f5386c8dc201884e8903\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\dc503668b190821d4aa9c1805b638176\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
