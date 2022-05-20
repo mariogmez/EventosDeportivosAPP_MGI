@@ -2779,6 +2779,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnConfirmarDLG
+id btnEventSus
+id btnEventosTotales
 id btnFlotante
 id btnGestEventos
 id btnGestUsuarios
@@ -2786,6 +2788,7 @@ id btnLogin
 id btnMenuCerrarSesion
 id btnMenuEscanearQR
 id btnRegistrase
+id btnSos
 id btnWithGoogle
 id btn_holder
 id buttonPanel
@@ -2948,6 +2951,7 @@ id ignore
 id ignoreRequest
 id image
 id imgQR
+id imgQrUsers
 id immediateStop
 id included
 id info

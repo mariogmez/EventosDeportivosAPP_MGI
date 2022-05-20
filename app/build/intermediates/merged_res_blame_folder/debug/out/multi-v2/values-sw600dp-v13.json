@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mario\\Documents\\MEGA\\Android\\EventosDeportivosAPP_MGI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "com.example.desafio_iii_mgi.app-mergeDebugResources-34:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\9c46a440f201d7a522bfb2430be4ec9b\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\025af13741c2397350fc9e61e42f86c3\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\d8eb2b660fdb0ffa1caaf03d392c9b98\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\04ebec123807861d28d0ae4065f028bd\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

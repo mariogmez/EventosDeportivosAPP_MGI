@@ -19,7 +19,8 @@ import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_main.*
 
-private var RC_SIGN_IN = 1
+private var GOOGLE_SIGN_IN = 100
+
 
 class MainActivity : AppCompatActivity() {
     private val db = FirebaseFirestore.getInstance()
@@ -42,17 +43,12 @@ class MainActivity : AppCompatActivity() {
         btnWithGoogle.setOnClickListener {
             //Configuración
             val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.request_id_token)) //Esto se encuentra en el archivo google-services.json: client->oauth_client -> client_id
+                .requestIdToken(getString(com.firebase.ui.auth.R.string.default_web_client_id)) //Esto se encuentra en el archivo google-services.json: client->oauth_client -> client_id
                 .requestEmail()
                 .build()
 
-            val googleClient = GoogleSignIn.getClient(
-                this,
-                googleConf
-            ) //Este será el cliente de autenticación de Google.
-            googleClient.signOut() //Con esto salimos de la posible cuenta  de Google que se encuentre logueada.
-            val signInIntent = googleClient.signInIntent
-            startActivityForResult(signInIntent, RC_SIGN_IN)
+            val googleClient = GoogleSignIn.getClient(this, googleConf)
+            startActivityForResult(googleClient.signInIntent,GOOGLE_SIGN_IN)
         }
 
         btnLogin.setOnClickListener {
@@ -124,5 +120,24 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
+    /*
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (requestCode == GOOGLE_SIGN_IN){
+            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+            val account = task.getResult(ApiException::class.java)
+
+            if (account != null){
+                Toast.makeText(this, account.email.toString(), Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this, "essta vacia", Toast.LENGTH_SHORT).show()
+            }
+            
+        }
+    }
+
+     */
 
 }
