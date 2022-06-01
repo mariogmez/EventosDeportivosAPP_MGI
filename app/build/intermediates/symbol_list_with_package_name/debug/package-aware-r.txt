@@ -2675,6 +2675,7 @@ id ConstraintLayoutBase
 id FUNCTION
 id META
 id MiRecyclerVWeventos
+id MiRecyclerVWeventosUsu
 id MiRecyclerVWusuarios
 id NO_DEBUG
 id SHIFT
@@ -2977,6 +2978,7 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
 id listMode
 id list_item
 id logo
@@ -3169,6 +3171,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swtEventoUsu
 id swtListUsu
 id tabMode
 id tag_accessibility_actions
@@ -3208,6 +3211,8 @@ id textView17
 id textView18
 id textView2
 id textView20
+id textView21
+id textView24
 id textView3
 id textView4
 id textView5
@@ -3400,6 +3405,7 @@ layout activity_dialog
 layout activity_evento
 layout activity_ficha_usuario
 layout activity_listado_eventos
+layout activity_listado_eventos_usus
 layout activity_listado_usuarios
 layout activity_main
 layout activity_register
@@ -3449,6 +3455,7 @@ layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
 layout list_event
+layout list_event_usu
 layout list_usu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

@@ -56,12 +56,14 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
             var verificado:Boolean = false
             var admin:Boolean = false
 
+
             db.collection("users").document(correo.text.toString()).get().addOnSuccessListener {
                 nombre = (it.get("nombre") as String?).toString()
                 apellidos = (it.get("apellidos") as String?).toString()
                 fecha = (it.get("edad") as String?).toString()
                 verificado = it.get("verificado") == true
                 admin = it.get("admin") == true
+
             }
 
 
@@ -80,7 +82,8 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
                             "apellidos" to apellidos,
                             "edad" to fecha,
                             "verificado" to true,
-                            "admin" to admin
+                            "admin" to admin,
+                            "listUsu" to arrayListOf("")
                         )
                     )
                 }else{
@@ -90,7 +93,8 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
                             "apellidos" to apellidos,
                             "edad" to fecha,
                             "verificado" to false,
-                            "admin" to admin
+                            "admin" to admin,
+                            "listUsu" to arrayListOf("")
                         )
                     )
                 }

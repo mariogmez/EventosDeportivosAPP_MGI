@@ -34,7 +34,8 @@ RegisterActivity : AppCompatActivity() {
                                     "apellidos" to txtApellidosRG.text.toString(),
                                     "edad" to txtEdad.text.toString(),
                                     "verificado" to false,
-                                    "admin" to false
+                                    "admin" to false,
+                                    "listUsu" to arrayListOf("")
                                 )
                             )
                             Toast.makeText(this, "Registro completo, un administrador le dara permiso en breve", Toast.LENGTH_SHORT).show()

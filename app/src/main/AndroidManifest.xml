@@ -4,14 +4,16 @@
     package="com.example.desafio_iii_mgi">
 
     <application xmlns:tools="http://schemas.android.com/tools"
+        android:name=".PrecargasApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher1"
         android:label="DeportPlus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".PrecargasApp"
         android:theme="@style/Theme.Desafio_III_MGI">
-
+        <activity
+            android:name=".Users.ListadoEventosUsusAct"
+            android:exported="false" />
         <activity
             android:name=".Events.EventoActivity"
             android:exported="false" />
