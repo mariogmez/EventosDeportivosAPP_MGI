@@ -79,8 +79,9 @@ class LIstadoEventosActivity : AppCompatActivity() {
                         "nombre" to cajaNombreSWD.text.toString(),
                         "fecha" to cajaFechaSWD.text.toString(),
                         "hora" to cajaHoraSWD.text.toString(),
-                        "lat" to lon,
-                        "lon" to lat
+                        "lat" to lat,
+                        "lon" to lon,
+                        "listEve" to arrayListOf("")
 
                     )
                 )
@@ -178,7 +179,8 @@ class LIstadoEventosActivity : AppCompatActivity() {
                     dc.document.get("fecha").toString(),
                     dc.document.get("hora").toString(),
                     dc.document.get("lat") as Double,
-                    dc.document.get("lon") as Double
+                    dc.document.get("lon") as Double,
+                    dc.document.get("listEve") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
                 )
                 miArrayEvent.add(al)
             }

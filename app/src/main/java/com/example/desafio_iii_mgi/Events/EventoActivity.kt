@@ -84,7 +84,8 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
                 var hora: String? = it.get("hora") as String?
                 var lat: Double = it.get("lat") as Double
                 var lon :Double = it.get("lon") as Double
-                var event = Evento(ide, nombre.toString(),fecha.toString(),hora.toString(),lat,lon)
+                var listEve: ArrayList<String> = arrayListOf()
+                var event = Evento(ide, nombre.toString(),fecha.toString(),hora.toString(),lat,lon, listEve)
                 even = (event)
             }
         }
@@ -105,7 +106,8 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
                         "fecha" to even.fecha,
                         "hora" to even.hora,
                         "lat" to coor.latitude,
-                        "lon" to coor.longitude
+                        "lon" to coor.longitude,
+                        "listEve" to even.listEve
                     )
                 )
             }
