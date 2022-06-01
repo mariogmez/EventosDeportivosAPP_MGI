@@ -1,190 +1,186 @@
 [
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_dialog.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_dialog.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xhdpi_ic_pwd_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xhdpi/ic_pwd_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-mdpi_ic_user_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-mdpi/ic_user_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xhdpi_ic_eye_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xhdpi\\ic_eye_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_listado_eventos.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_listado_eventos.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_main.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxxhdpi_ic_eye_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxxhdpi/ic_eye_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_evento.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_evento.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-mdpi_ic_pwd_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-mdpi/ic_pwd_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxhdpi_ic_pwd_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxhdpi\\ic_pwd_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxxhdpi_ic_pwd_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxxhdpi\\ic_pwd_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxhdpi_ic_pwd_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxhdpi/ic_pwd_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\menu_menu_opciones.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\menu\\menu_opciones.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_ficha_usuario.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_ficha_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-hdpi_ic_user_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-hdpi/ic_user_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_list_usu.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\list_usu.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/menu_menu_opciones.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/menu/menu_opciones.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_evento.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_evento.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_ficha_usuario.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_ficha_usuario.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_admin.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_admin.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_listado_eventos.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_listado_eventos.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xhdpi_ic_user_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xhdpi/ic_user_icon.png"
     },
     {
         "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_user.xml.flat",
         "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_user.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-hdpi_ic_eye_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-hdpi\\ic_eye_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxxhdpi_ic_pwd_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxxhdpi/ic_pwd_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_listado_usuarios.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_listado_usuarios.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xhdpi_ic_eye_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xhdpi/ic_eye_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxxhdpi_ic_user_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxxhdpi\\ic_user_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxhdpi_ic_eye_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxhdpi/ic_eye_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-mdpi_ic_eye_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-mdpi\\ic_eye_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxxhdpi_ic_user_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxxhdpi/ic_user_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_listado_usuarios.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_listado_usuarios.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_user.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_user.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xhdpi_ic_pwd_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xhdpi\\ic_pwd_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-mdpi_ic_user_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-mdpi\\ic_user_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_list_event.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/list_event.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-hdpi_ic_pwd_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-hdpi\\ic_pwd_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-mdpi_ic_eye_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-mdpi/ic_eye_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-hdpi_ic_user_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-hdpi\\ic_user_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_register.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher1.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-anydpi-v26/ic_launcher1.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-mdpi_ic_pwd_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-mdpi\\ic_pwd_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-xxhdpi_ic_user_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-xxhdpi/ic_user_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxxhdpi_ic_eye_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxxhdpi\\ic_eye_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-hdpi_ic_pwd_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-hdpi/ic_pwd_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_list_event.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\list_event.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xhdpi_ic_user_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xhdpi\\ic_user_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-pngs-31:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\layout_activity_admin.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\layout\\activity_admin.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_list_usu.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/list_usu.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxhdpi_ic_user_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxhdpi\\ic_user_icon.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_dialog.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher1.xml.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-anydpi-v26\\ic_launcher1.xml"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/drawable-hdpi_ic_eye_icon.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/drawable-hdpi/ic_eye_icon.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxhdpi_ic_eye_icon.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxhdpi\\ic_eye_icon.png"
-    },
-    {
-        "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
