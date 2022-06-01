@@ -16,6 +16,7 @@ drawable ic_pwd_icon
 drawable ic_user_icon
 id ConstraintLayoutBase
 id MiRecyclerVWeventos
+id MiRecyclerVWeventosUsu
 id MiRecyclerVWusuarios
 id btnConfirmarDLG
 id btnEventSus
@@ -43,9 +44,11 @@ id imgQR
 id imgQrUsers
 id linearLayout
 id linearLayout2
+id linearLayout3
 id map
 id rbtnTrayectoDLG
 id rbtnUbicacionDLG
+id swtEventoUsu
 id swtListUsu
 id textView
 id textView10
@@ -59,6 +62,8 @@ id textView17
 id textView18
 id textView2
 id textView20
+id textView21
+id textView24
 id textView3
 id textView4
 id textView5
@@ -93,11 +98,13 @@ layout activity_dialog
 layout activity_evento
 layout activity_ficha_usuario
 layout activity_listado_eventos
+layout activity_listado_eventos_usus
 layout activity_listado_usuarios
 layout activity_main
 layout activity_register
 layout activity_user
 layout list_event
+layout list_event_usu
 layout list_usu
 menu menu_opciones
 mipmap ic_launcher

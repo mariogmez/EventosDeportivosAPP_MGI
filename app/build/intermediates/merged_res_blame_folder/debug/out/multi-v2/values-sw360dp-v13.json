@@ -4,7 +4,7 @@
             "outputFile": "com.example.desafio_iii_mgi.app-mergeDebugResources-34:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3eaf4cbbd45971cda96879e0b7428358\\transformed\\firebase-ui-auth-7.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3c00af1d1220cf9b86c995e5fc5ecbfb\\transformed\\firebase-ui-auth-7.2.0\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

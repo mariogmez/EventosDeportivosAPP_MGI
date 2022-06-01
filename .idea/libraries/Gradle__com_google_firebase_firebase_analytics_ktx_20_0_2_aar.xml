@@ -3,9 +3,10 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9825025854b493d48e1a2c0404e546be/transformed/firebase-analytics-ktx-20.0.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cac5af050cfdb17301919ea70a2cc10e/transformed/firebase-analytics-ktx-20.0.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/aff19569bd8754c7a6607766ccbf1c54/transformed/firebase-analytics-ktx-20.0.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aff19569bd8754c7a6607766ccbf1c54/transformed/firebase-analytics-ktx-20.0.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aff19569bd8754c7a6607766ccbf1c54/transformed/firebase-analytics-ktx-20.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/160053eedaa4a4775987230b89681ce2/transformed/firebase-analytics-ktx-20.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/160053eedaa4a4775987230b89681ce2/transformed/firebase-analytics-ktx-20.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/160053eedaa4a4775987230b89681ce2/transformed/firebase-analytics-ktx-20.0.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics-ktx/20.0.2/ace98f39b262c59be4be4d52b871d1ba5dfff723/firebase-analytics-ktx-20.0.2-javadoc.jar!/" />

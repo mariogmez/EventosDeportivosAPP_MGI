@@ -4,7 +4,7 @@
             "outputFile": "com.example.desafio_iii_mgi.app-mergeDebugResources-34:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3eaf4cbbd45971cda96879e0b7428358\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\3c00af1d1220cf9b86c995e5fc5ecbfb\\transformed\\firebase-ui-auth-7.2.0\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\04ebec123807861d28d0ae4065f028bd\\transformed\\appcompat-1.4.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\mario\\.gradle\\caches\\transforms-3\\f28e43c9eff86b9bc086a3f3f7f07de9\\transformed\\appcompat-1.4.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
