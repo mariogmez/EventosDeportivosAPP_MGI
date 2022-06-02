@@ -22,6 +22,9 @@ RegisterActivity : AppCompatActivity() {
             showDatePickerDIalog()
         }
 
+        var lon:Double = 0.0
+        var lat:Double = 0.0
+
         btnRegistrase.setOnClickListener {
 
             if (checkBox.isChecked){
@@ -35,7 +38,9 @@ RegisterActivity : AppCompatActivity() {
                                     "edad" to txtEdad.text.toString(),
                                     "verificado" to false,
                                     "admin" to false,
-                                    "listUsu" to arrayListOf("")
+                                    "listUsu" to arrayListOf(""),
+                                    "lat" to lat,
+                                    "lon" to lon
                                 )
                             )
                             Toast.makeText(this, "Registro completo, un administrador le dara permiso en breve", Toast.LENGTH_SHORT).show()

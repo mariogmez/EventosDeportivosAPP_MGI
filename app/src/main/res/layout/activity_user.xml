@@ -32,10 +32,10 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
-        android:id="@+id/btnEventSus"
+        android:id="@+id/btnPerfil"
         android:layout_width="300dp"
         android:layout_height="120dp"
-        android:text="Mis participaciones"
+        android:text="Mi Perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

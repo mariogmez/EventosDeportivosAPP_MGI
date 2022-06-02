@@ -82,7 +82,10 @@ class ListadoUsuariosActivity : AppCompatActivity() {
                     dc.document.get("edad").toString(),
                     dc.document.getBoolean("verificado"),
                     dc.document.getBoolean("admin"),
-                    dc.document.get("listUsu") as ArrayList<String>
+                    dc.document.get("listUsu") as ArrayList<String>,
+                    dc.document.get("lat") as Double,
+                    dc.document.get("lon") as Double
+
                 )
                 miArrayUsu.add(al)
             }
