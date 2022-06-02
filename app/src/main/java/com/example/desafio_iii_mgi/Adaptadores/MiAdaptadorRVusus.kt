@@ -83,7 +83,9 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
                             "edad" to fecha,
                             "verificado" to true,
                             "admin" to admin,
-                            "listUsu" to arrayListOf("")
+                            "listUsu" to arrayListOf(""),
+                            "lat" to usuario.lat,
+                            "lon" to usuario.lon
                         )
                     )
                 }else{
@@ -94,7 +96,9 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
                             "edad" to fecha,
                             "verificado" to false,
                             "admin" to admin,
-                            "listUsu" to arrayListOf("")
+                            "listUsu" to arrayListOf(""),
+                            "lat" to usuario.lat,
+                            "lon" to usuario.lon
                         )
                     )
                 }

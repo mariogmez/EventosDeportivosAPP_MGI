@@ -12,6 +12,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.desafio_iii_mgi.Events.Evento
 import com.example.desafio_iii_mgi.Events.EventoActivity
 import com.example.desafio_iii_mgi.R
+import com.google.firebase.firestore.FirebaseFirestore
+
+private val db = FirebaseFirestore.getInstance()
 
 class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>(){
 
@@ -55,7 +58,6 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
             if (evento.listEve.size != 0){
                 for (i in 0..evento.listEve.size){
                     var idVar: String? = evento.listEve.elementAtOrNull(i)
-
                     if(correo == idVar){
                         pillUsu.isChecked = true
                     }
@@ -73,6 +75,44 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
 
 
 
+            })
+
+            pillUsu.setOnClickListener(View.OnClickListener {
+                if (pillUsu.isChecked){
+
+                    if (correo != null) {
+                        evento.listEve.add(correo)
+                    }
+
+                    if (evento.idEvento != null) {
+                        db.collection("eventos").document(evento.idEvento).set(
+                            hashMapOf(
+                                "nombre" to evento.nombre,
+                                "fecha" to evento.fecha,
+                                "hora" to evento.hora,
+                                "lat" to evento.lat,
+                                "lon" to evento.lon,
+                                "listEve" to evento.listEve
+                            )
+                        )
+                    }
+
+                }else{
+                    if (correo != null) {evento.listEve.remove(correo)}
+                    if (evento.idEvento != null) {
+                        db.collection("eventos").document(evento.idEvento).set(
+                            hashMapOf(
+                                "nombre" to evento.nombre,
+                                "fecha" to evento.fecha,
+                                "hora" to evento.hora,
+                                "lat" to evento.lat,
+                                "lon" to evento.lon,
+                                "listEve" to evento.listEve
+                            )
+                        )
+                    }
+
+                }
             })
 
         }

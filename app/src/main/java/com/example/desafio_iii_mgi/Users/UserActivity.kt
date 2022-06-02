@@ -53,6 +53,14 @@ class UserActivity : AppCompatActivity() {
             intent.putExtra("correo", correo)
             startActivity(intent)
         }
+
+        btnPerfil.setOnClickListener {
+            val intent = Intent(this, FichaUsuarioActivity::class.java)
+            intent.putExtra("correo", correo)
+            startActivity(intent)
+        }
+
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

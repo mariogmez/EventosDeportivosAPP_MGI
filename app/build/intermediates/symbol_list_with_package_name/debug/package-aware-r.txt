@@ -2780,7 +2780,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnConfirmarDLG
-id btnEventSus
 id btnEventosTotales
 id btnFlotante
 id btnGestEventos
@@ -2788,6 +2787,7 @@ id btnGestUsuarios
 id btnLogin
 id btnMenuCerrarSesion
 id btnMenuEscanearQR
+id btnPerfil
 id btnRegistrase
 id btnSos
 id btnWithGoogle
@@ -2984,6 +2984,7 @@ id list_item
 id logo
 id main_tos_and_pp
 id map
+id map2
 id masked
 id match_constraint
 id match_parent
@@ -3202,12 +3203,8 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
-id textView13
 id textView14
 id textView15
-id textView16
-id textView17
 id textView18
 id textView2
 id textView20
@@ -3215,7 +3212,6 @@ id textView21
 id textView24
 id textView3
 id textView4
-id textView5
 id textView6
 id textView7
 id textView8
@@ -3260,7 +3256,6 @@ id txtEmail
 id txtEventoList
 id txtFechaDLG
 id txtFechaEve
-id txtFichaActiv
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
