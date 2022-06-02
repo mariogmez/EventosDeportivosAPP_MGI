@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.desafio_iii_mgi">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application xmlns:tools="http://schemas.android.com/tools"
         android:name=".PrecargasApp"
@@ -14,6 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio_III_MGI">
+        <activity
+            android:name=".Events.EventoActivityUsers"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.LocalizacionUsuariosActivity"
+            android:exported="false" />
         <activity
             android:name=".Users.ListadoEventosUsusAct"
             android:exported="false" />
@@ -29,7 +35,7 @@
             android:name=".Admin.LIstadoEventosActivity"
             android:exported="false" />
         <activity
-            android:name=".FichaUsuarioActivity"
+            android:name=".Users.FichaUsuarioActivity"
             android:exported="false" />
         <activity
             android:name=".Admin.ListadoUsuariosActivity"

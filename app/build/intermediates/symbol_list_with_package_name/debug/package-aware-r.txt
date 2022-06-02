@@ -2789,6 +2789,7 @@ id btnMenuCerrarSesion
 id btnMenuEscanearQR
 id btnPerfil
 id btnRegistrase
+id btnReload
 id btnSos
 id btnWithGoogle
 id btn_holder
@@ -2985,6 +2986,8 @@ id logo
 id main_tos_and_pp
 id map
 id map2
+id map3
+id map4
 id masked
 id match_constraint
 id match_parent
@@ -3256,14 +3259,17 @@ id txtEmail
 id txtEventoList
 id txtFechaDLG
 id txtFechaEve
+id txtFechaEveUsu
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
 id txtFichaNombre
 id txtHoraDLG
 id txtHoraEve
+id txtHoraEveUsu
 id txtNombreDLG
 id txtNombreEve
+id txtNombreEveUsu
 id txtNombreRG
 id txtRegistro
 id txtUno
@@ -3398,10 +3404,12 @@ layout abc_tooltip
 layout activity_admin
 layout activity_dialog
 layout activity_evento
+layout activity_evento_users
 layout activity_ficha_usuario
 layout activity_listado_eventos
 layout activity_listado_eventos_usus
 layout activity_listado_usuarios
+layout activity_localizacion_usuarios
 layout activity_main
 layout activity_register
 layout activity_user

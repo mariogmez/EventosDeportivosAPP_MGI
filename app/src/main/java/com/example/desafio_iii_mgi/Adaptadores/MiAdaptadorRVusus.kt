@@ -9,7 +9,8 @@ import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.desafio_iii_mgi.FichaUsuarioActivity
+import com.example.desafio_iii_mgi.Admin.LocalizacionUsuariosActivity
+import com.example.desafio_iii_mgi.Users.FichaUsuarioActivity
 import com.example.desafio_iii_mgi.R
 import com.example.desafio_iii_mgi.Users.User
 import com.google.firebase.firestore.FirebaseFirestore
@@ -68,8 +69,7 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
 
 
             itemView.setOnClickListener(View.OnClickListener {
-                Toast.makeText(context, correo.text, Toast.LENGTH_SHORT).show()
-                val intent = Intent(context, FichaUsuarioActivity::class.java)
+                val intent = Intent(context, LocalizacionUsuariosActivity::class.java)
                 intent.putExtra("correo", correo.text.toString())
                 itemView.context.startActivity(intent)
             })

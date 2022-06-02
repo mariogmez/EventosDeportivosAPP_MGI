@@ -50,6 +50,9 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
 
             }
         }
+        txtBtnListaUsus.setOnClickListener{
+            Toast.makeText(this, "cargar lista usus", Toast.LENGTH_SHORT).show()
+        }
 
         createFragment()
 

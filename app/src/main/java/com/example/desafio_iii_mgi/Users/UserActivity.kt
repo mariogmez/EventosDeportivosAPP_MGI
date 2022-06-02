@@ -7,10 +7,6 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.Toast
-import com.example.desafio_iii_mgi.Admin.AdminActivity
-import com.example.desafio_iii_mgi.Admin.LIstadoEventosActivity
-import com.example.desafio_iii_mgi.Users.ListadoEventosUsusAct
-import com.example.desafio_iii_mgi.FichaUsuarioActivity
 import com.example.desafio_iii_mgi.PrecargasApp
 import com.example.desafio_iii_mgi.R
 import com.google.firebase.auth.FirebaseAuth
@@ -19,7 +15,6 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.integration.android.IntentIntegrator
 import com.google.zxing.integration.android.IntentResult
 import com.journeyapps.barcodescanner.BarcodeEncoder
-import kotlinx.android.synthetic.main.activity_admin.*
 import kotlinx.android.synthetic.main.activity_user.*
 import java.lang.Exception
 

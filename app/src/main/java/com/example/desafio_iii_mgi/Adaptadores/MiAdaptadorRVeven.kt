@@ -6,12 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 import com.example.desafio_iii_mgi.Events.Evento
 import com.example.desafio_iii_mgi.Events.EventoActivity
-import com.example.desafio_iii_mgi.FichaUsuarioActivity
 import com.example.desafio_iii_mgi.R
 
 

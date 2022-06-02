@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.desafio_iii_mgi.Events.Evento
 import com.example.desafio_iii_mgi.Events.EventoActivity
+import com.example.desafio_iii_mgi.Events.EventoActivityUsers
 import com.example.desafio_iii_mgi.R
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -69,7 +70,7 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
 
             itemView.setOnClickListener(View.OnClickListener {
 
-                val intent = Intent(context, EventoActivity::class.java)
+                val intent = Intent(context, EventoActivityUsers::class.java)
                 intent.putExtra("id", evento.idEvento.toString())
                 itemView.context.startActivity(intent)
 

@@ -58,6 +58,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Desafio_III_MGI" >
         <activity
+            android:name="com.example.desafio_iii_mgi.Events.EventoActivityUsers"
+            android:exported="false" />
+        <activity
+            android:name="com.example.desafio_iii_mgi.Admin.LocalizacionUsuariosActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.desafio_iii_mgi.Users.ListadoEventosUsusAct"
             android:exported="false" />
         <activity
@@ -72,7 +78,7 @@
             android:name="com.example.desafio_iii_mgi.Admin.LIstadoEventosActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.desafio_iii_mgi.FichaUsuarioActivity"
+            android:name="com.example.desafio_iii_mgi.Users.FichaUsuarioActivity"
             android:exported="false" />
         <activity
             android:name="com.example.desafio_iii_mgi.Admin.ListadoUsuariosActivity"
