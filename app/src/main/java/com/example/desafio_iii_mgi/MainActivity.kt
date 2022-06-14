@@ -148,9 +148,15 @@ class MainActivity : AppCompatActivity() {
                             db.collection("users").document(account.email.toString()).get().addOnSuccessListener {
                                 try {
                                     var comp:Boolean = it.get("verificado") as Boolean
-                                    val intent = Intent(this, UserActivity::class.java)
-                                    intent.putExtra("correo", account.email.toString())
-                                    startActivity(intent)
+
+                                    if (comp){
+                                        val intent = Intent(this, UserActivity::class.java)
+                                        intent.putExtra("correo", account.email.toString())
+                                        startActivity(intent)
+                                    }else{
+                                        Toast.makeText(this, "Su cuenta todavia no ha sido activada", Toast.LENGTH_SHORT).show()
+                                    }
+
 
                                 }catch (e:Exception){
                                     Toast.makeText(this, "crear cuenta", Toast.LENGTH_SHORT).show()
