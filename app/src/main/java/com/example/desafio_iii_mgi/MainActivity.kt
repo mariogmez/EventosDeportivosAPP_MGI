@@ -9,6 +9,7 @@ import android.util.Log
 import android.widget.Toast
 import com.example.desafio_iii_mgi.Admin.AdminActivity
 import com.example.desafio_iii_mgi.PrecargasApp.Companion.prefs
+import com.example.desafio_iii_mgi.Users.User
 import com.example.desafio_iii_mgi.Users.UserActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -19,7 +20,7 @@ import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_main.*
 
-private var GOOGLE_SIGN_IN = 100
+private var GOOGLE_SIGN_IN = 1
 
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         checkUserValues()
+
+
 
         /*
          * ONCLICK DE LOS BOTONES
@@ -48,37 +51,41 @@ class MainActivity : AppCompatActivity() {
                 .build()
 
             val googleClient = GoogleSignIn.getClient(this, googleConf)
-            startActivityForResult(googleClient.signInIntent,GOOGLE_SIGN_IN)
+            googleClient.signOut() //Con esto salimos de la posible cuenta  de Google que se encuentre logueada.
+            val signInIntent = googleClient.signInIntent
+            startActivityForResult(signInIntent, GOOGLE_SIGN_IN)
+
         }
 
         btnLogin.setOnClickListener {
             if (txtEmail.text.isNotEmpty() && txtContrasenia.text.isNotEmpty()) {
-                db.collection("users").document(txtEmail.text.toString()).get().addOnSuccessListener {
 
-                        var compAdm:Boolean = it.get("admin") as Boolean
-
-                        if (it.get("verificado") == true) {
-                            FirebaseAuth.getInstance().signInWithEmailAndPassword(txtEmail.text.toString(), txtContrasenia.text.toString()).addOnCompleteListener {
-                                if (it.isSuccessful) {
-                                    initUI()
-                                    if (compAdm == true) {
-                                        val intent = Intent(this, AdminActivity::class.java)
-                                        intent.putExtra("correo", txtEmail.text.toString())
-                                        startActivity(intent)
-                                    } else {
-                                        val intent = Intent(this, UserActivity::class.java)
-                                        intent.putExtra("correo", txtEmail.text.toString())
-                                        startActivity(intent)
-                                    }
-
+                FirebaseAuth.getInstance().signInWithEmailAndPassword(txtEmail.text.toString(), txtContrasenia.text.toString()).addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        initUI()
+                        db.collection("users").document(txtEmail.text.toString()).get().addOnSuccessListener {
+                            var compAdm:Boolean = it.get("admin") as Boolean
+                            var comp:Boolean = it.get("verificado") as Boolean
+                            
+                            if (comp == true){
+                                if (compAdm == true) {
+                                    val intent = Intent(this, AdminActivity::class.java)
+                                    intent.putExtra("correo", txtEmail.text.toString())
+                                    startActivity(intent)
                                 } else {
-                                    Toast.makeText(this, "Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show()
+                                    val intent = Intent(this, UserActivity::class.java)
+                                    intent.putExtra("correo", txtEmail.text.toString())
+                                    startActivity(intent)
                                 }
+                            }else{
+                                Toast.makeText(this, "Su cuenta todavia no ha sido activada", Toast.LENGTH_SHORT).show()
                             }
-                        } else {
-                            Toast.makeText(this, "Su cuenta todavia no ha sido activada", Toast.LENGTH_SHORT).show()
                         }
+                    }else{
+                        Toast.makeText(this, "Usuario o contraseña incorrecto", Toast.LENGTH_SHORT).show()
                     }
+                }
+
             }
 
         }
@@ -121,23 +128,56 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /*
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == GOOGLE_SIGN_IN){
-            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
-            val account = task.getResult(ApiException::class.java)
 
-            if (account != null){
-                Toast.makeText(this, account.email.toString(), Toast.LENGTH_SHORT).show()
-            }else{
-                Toast.makeText(this, "essta vacia", Toast.LENGTH_SHORT).show()
+            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+            try {
+
+                val account = task.getResult(ApiException::class.java)!!
+
+                if (account != null) {
+                    val credential: AuthCredential= GoogleAuthProvider.getCredential(account.idToken, null)
+                    FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener {
+                        if (it.isSuccessful){
+                            var comp = true
+
+                            db.collection("users").document(account.email.toString()).get().addOnSuccessListener {
+                                try {
+                                    var comp:Boolean = it.get("verificado") as Boolean
+
+                                    if (comp){
+                                        val intent = Intent(this, UserActivity::class.java)
+                                        intent.putExtra("correo", account.email.toString())
+                                        startActivity(intent)
+                                    }else{
+                                        Toast.makeText(this, "Su cuenta todavia no ha sido activada", Toast.LENGTH_SHORT).show()
+                                    }
+
+
+                                }catch (e:Exception){
+                                    Toast.makeText(this, "crear cuenta", Toast.LENGTH_SHORT).show()
+
+                                    val intentRegister = Intent(this, RegisterActivity::class.java)
+                                    intentRegister.putExtra("correo", account.email.toString())
+                                    startActivity(intentRegister)
+
+                                }
+                            }
+
+                        } else {
+                        }
+                    }
+                }
+            } catch (e: ApiException) {
             }
             
         }
     }
 
-     */
+
 
 }

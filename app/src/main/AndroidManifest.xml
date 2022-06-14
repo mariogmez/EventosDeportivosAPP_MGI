@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio_III_MGI">
         <activity
+            android:name=".Admin.GestionUsuariosPorEvento"
+            android:exported="false" />
+        <activity
             android:name=".Events.EventoActivityUsers"
             android:exported="false" />
         <activity

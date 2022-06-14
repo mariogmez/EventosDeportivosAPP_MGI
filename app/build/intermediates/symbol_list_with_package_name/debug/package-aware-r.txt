@@ -2678,6 +2678,7 @@ id MiRecyclerVWeventos
 id MiRecyclerVWeventosUsu
 id MiRecyclerVWusuarios
 id NO_DEBUG
+id RVGestUsusEven
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3206,8 +3207,11 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
+id textView13
 id textView14
 id textView15
+id textView17
 id textView18
 id textView2
 id textView20
@@ -3249,10 +3253,12 @@ id transition_transform
 id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
+id txtApellidosListUsu
 id txtApellidosRG
 id txtBtnListaUsus
 id txtContrasenia
 id txtCorreoList
+id txtCorreoListUsu
 id txtCorreoRG
 id txtEdad
 id txtEmail
@@ -3270,6 +3276,7 @@ id txtHoraEveUsu
 id txtNombreDLG
 id txtNombreEve
 id txtNombreEveUsu
+id txtNombreListUsu
 id txtNombreRG
 id txtRegistro
 id txtUno
@@ -3406,6 +3413,7 @@ layout activity_dialog
 layout activity_evento
 layout activity_evento_users
 layout activity_ficha_usuario
+layout activity_gestion_usuarios_por_evento
 layout activity_listado_eventos
 layout activity_listado_eventos_usus
 layout activity_listado_usuarios
@@ -3460,6 +3468,7 @@ layout fui_welcome_back_password_prompt_layout
 layout list_event
 layout list_event_usu
 layout list_usu
+layout list_usu_gest
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -58,6 +58,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Desafio_III_MGI" >
         <activity
+            android:name="com.example.desafio_iii_mgi.Admin.GestionUsuariosPorEvento"
+            android:exported="false" />
+        <activity
             android:name="com.example.desafio_iii_mgi.Events.EventoActivityUsers"
             android:exported="false" />
         <activity
