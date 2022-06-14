@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "906366645918-bfvhaqtnk6s2ndgncniqa978024g5rsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.desafio_iii_mgi",
+            "certificate_hash": "4cb65e3c8f7267f2d24da1435525e8df1a76592f"
+          }
+        },
+        {
           "client_id": "906366645918-ljvljptvtn5eu8tlegaq672d2n7od4a8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

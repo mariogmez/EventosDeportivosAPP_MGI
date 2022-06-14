@@ -34,6 +34,7 @@ class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
 
+        Toast.makeText(this, ""+correo, Toast.LENGTH_SHORT).show()
         if (correo != null) {
             db.collection("users").document(correo).get().addOnSuccessListener {
 

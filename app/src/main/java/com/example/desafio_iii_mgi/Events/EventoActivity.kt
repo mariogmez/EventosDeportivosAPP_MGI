@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.example.desafio_iii_mgi.Admin.AdminActivity
+import com.example.desafio_iii_mgi.Admin.GestionUsuariosPorEvento
 import com.example.desafio_iii_mgi.R
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -17,6 +19,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.type.LatLng
 import kotlinx.android.synthetic.main.activity_evento.*
 import kotlinx.android.synthetic.main.activity_ficha_usuario.*
+import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.StringBuilder
 
 class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapLongClickListener {
@@ -50,9 +53,15 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
 
             }
         }
+        /*
         txtBtnListaUsus.setOnClickListener{
-            Toast.makeText(this, "cargar lista usus", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, GestionUsuariosPorEvento::class.java)
+            intent.putExtra("id", id)
+            startActivity(intent)
+
         }
+
+         */
 
         createFragment()
 

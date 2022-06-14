@@ -62,9 +62,6 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
                     if(correo == idVar){
                         pillUsu.isChecked = true
                     }
-
-
-
                 }
             }
 
