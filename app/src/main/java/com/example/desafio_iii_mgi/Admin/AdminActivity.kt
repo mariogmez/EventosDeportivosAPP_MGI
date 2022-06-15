@@ -27,27 +27,13 @@ class AdminActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin)
-        //supportActionBar?.hide()
 
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
         var img: ImageView = findViewById(R.id.imgQR)
 
-
-        if (correo != null) {
-            db.collection("users").document(correo).get().addOnSuccessListener {
-                supportActionBar?.title = "Bienvenido " + it.get("nombre") as String?
-
-            }
-
-            try {
-                var  barEncoder = BarcodeEncoder()
-                var bitmap = barEncoder.encodeBitmap(correo, BarcodeFormat.QR_CODE, 750,750)
-                img.setImageBitmap(bitmap)
-            }catch (e: Exception){
-                e.printStackTrace()
-            }
-        }
+        establecer_nombre_cabecera(correo!!)
+        generar_qr(correo!!, img)
 
         btnGestUsuarios.setOnClickListener {
             val intent = Intent(this, ListadoUsuariosActivity::class.java)
@@ -61,6 +47,29 @@ class AdminActivity : AppCompatActivity() {
         }
 
     }
+
+    /**
+     ** FUNCIONES
+     **/
+
+    private fun establecer_nombre_cabecera(correo:String){
+        db.collection("users").document(correo).get().addOnSuccessListener {
+            supportActionBar?.title = "Bienvenido " + it.get("nombre") as String?
+
+        }
+    }
+
+    private fun generar_qr(correo: String, img:ImageView){
+        try {
+            var  barEncoder = BarcodeEncoder()
+            var bitmap = barEncoder.encodeBitmap(correo, BarcodeFormat.QR_CODE, 750,750)
+            img.setImageBitmap(bitmap)
+        }catch (e: Exception){
+            e.printStackTrace()
+        }
+    }
+
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_opciones, menu)
