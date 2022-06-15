@@ -2792,6 +2792,7 @@ id btnPerfil
 id btnRegistrase
 id btnReload
 id btnSos
+id btnSync
 id btnWithGoogle
 id btn_holder
 id buttonPanel
@@ -2981,6 +2982,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearUsus
 id listMode
 id list_item
 id logo
@@ -3207,8 +3209,6 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
-id textView13
 id textView14
 id textView15
 id textView17
@@ -3253,7 +3253,6 @@ id transition_transform
 id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
-id txtApellidosListUsu
 id txtApellidosRG
 id txtBtnListaUsus
 id txtContrasenia
@@ -3276,7 +3275,6 @@ id txtHoraEveUsu
 id txtNombreDLG
 id txtNombreEve
 id txtNombreEveUsu
-id txtNombreListUsu
 id txtNombreRG
 id txtRegistro
 id txtUno

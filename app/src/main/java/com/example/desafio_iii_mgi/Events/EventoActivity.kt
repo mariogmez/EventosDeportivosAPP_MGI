@@ -53,7 +53,7 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
 
             }
         }
-        /*
+
         txtBtnListaUsus.setOnClickListener{
             val intent = Intent(this, GestionUsuariosPorEvento::class.java)
             intent.putExtra("id", id)
@@ -61,7 +61,7 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
 
         }
 
-         */
+
 
         createFragment()
 
