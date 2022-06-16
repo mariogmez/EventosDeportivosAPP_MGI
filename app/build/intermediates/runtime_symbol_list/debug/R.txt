@@ -2782,6 +2782,7 @@ int id browser_actions_menu_view 0x7f080070
 int id btnConfirmarDLG 0x7f080071
 int id btnEventosTotales 0x7f080072
 int id btnFlotante 0x7f080073
+int id btnGaleria 0x7f080296
 int id btnGestEventos 0x7f080074
 int id btnGestUsuarios 0x7f080075
 int id btnLogin 0x7f080076

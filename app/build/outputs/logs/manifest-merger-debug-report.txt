@@ -14,12 +14,14 @@ MERGED from [com.google.firebase:firebase-firestore-ktx:24.0.0] C:\Users\mario\.
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\160053eedaa4a4775987230b89681ce2\transformed\firebase-analytics-ktx-20.0.2\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\82c81d8162f08e783d499f513c1e8178\transformed\firebase-auth-ktx-21.0.1\AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\mario\.gradle\caches\transforms-3\e02ae2e12b0c99f74775dda0ea3c575a\transformed\play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.firebase:firebase-analytics:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\4b8d87926e975f4a095b59bd93051221\transformed\firebase-analytics-20.0.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\ee3c5230cf01ed0cd4291e3acc78fd34\transformed\firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\7abc2c48ea223fe337b049e1afd8f579\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\mario\.gradle\caches\transforms-3\434035deb045453ad7b9d11c62593818\transformed\firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
@@ -132,6 +134,8 @@ MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradl
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\82c81d8162f08e783d499f513c1e8178\transformed\firebase-auth-ktx-21.0.1\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\mario\.gradle\caches\transforms-3\e02ae2e12b0c99f74775dda0ea3c575a\transformed\play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
@@ -144,6 +148,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.grad
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\7abc2c48ea223fe337b049e1afd8f579\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\7abc2c48ea223fe337b049e1afd8f579\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:26:5-34:19
@@ -337,6 +343,8 @@ MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradl
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\82c81d8162f08e783d499f513c1e8178\transformed\firebase-auth-ktx-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\mario\.gradle\caches\transforms-3\e02ae2e12b0c99f74775dda0ea3c575a\transformed\play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
@@ -349,6 +357,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.grad
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\7abc2c48ea223fe337b049e1afd8f579\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\7abc2c48ea223fe337b049e1afd8f579\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:20:5-44
@@ -505,6 +515,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\ee3c5230cf01ed0cd4291e3acc78fd34\transformed\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\mario\.gradle\caches\transforms-3\d2454e7733ad0477d6b60e8e81f8ff37\transformed\firebase-installations-17.0.0\AndroidManifest.xml:10:5-79
@@ -527,6 +539,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\ee3c5230cf01ed0cd4291e3acc78fd34\transformed\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\mario\.gradle\caches\transforms-3\d2454e7733ad0477d6b60e8e81f8ff37\transformed\firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
@@ -725,12 +739,16 @@ MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\mario\.
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\160053eedaa4a4775987230b89681ce2\transformed\firebase-analytics-ktx-20.0.2\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\82c81d8162f08e783d499f513c1e8178\transformed\firebase-auth-ktx-21.0.1\AndroidManifest.xml:8:9-14:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\82c81d8162f08e783d499f513c1e8178\transformed\firebase-auth-ktx-21.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\ee3c5230cf01ed0cd4291e3acc78fd34\transformed\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\mario\.gradle\caches\transforms-3\ee3c5230cf01ed0cd4291e3acc78fd34\transformed\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:24.0.0] C:\Users\mario\.gradle\caches\transforms-3\5b21fc382df7d767aef5752bc3eee09c\transformed\firebase-firestore-24.0.0\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\mario\.gradle\caches\transforms-3\d2454e7733ad0477d6b60e8e81f8ff37\transformed\firebase-installations-17.0.0\AndroidManifest.xml:15:9-21:19
@@ -783,6 +801,12 @@ ADDED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gr
 		ADDED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.0.1] C:\Users\mario\.gradle\caches\transforms-3\000ccaa8537d28f71b19fd0ab2895559\transformed\play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\33ac9da1c7adc117561e3993f6b8d634\transformed\firebase-storage-ktx-20.0.0\AndroidManifest.xml:16:17-122
 uses-permission#android.permission.CAMERA
 ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\mario\.gradle\caches\transforms-3\e10cc63aab02e73f956d414a6636360a\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
 	android:name
@@ -901,6 +925,12 @@ ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.grad
 		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\88b20782a1eb2a91ebef9a130fb7c136\transformed\firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\mario\.gradle\caches\transforms-3\c748ddfd4362827cfc2243d7b94d183c\transformed\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\ba75d4cca48d886d5782549dd46a3207\transformed\play-services-measurement-api-20.0.2\AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement:20.0.2] C:\Users\mario\.gradle\caches\transforms-3\8c93772194c1c92a2bab195b689853a9\transformed\play-services-measurement-20.0.2\AndroidManifest.xml:25:5-68
