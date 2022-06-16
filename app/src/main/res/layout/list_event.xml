@@ -29,6 +29,12 @@
             android:gravity="center_vertical"
             android:text="TextView" />
 
+        <Switch
+            android:id="@+id/pillActivar"
+            android:layout_width="59dp"
+            android:layout_height="50dp"
+            android:layout_weight="0" />
+
     </LinearLayout>
 
     <View

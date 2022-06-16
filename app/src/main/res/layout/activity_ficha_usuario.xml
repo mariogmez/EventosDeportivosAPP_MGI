@@ -7,6 +7,73 @@
     tools:context=".Users.FichaUsuarioActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtFichaApe"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:width="300dp"
+            android:gravity="center|left"
+            android:text="Apellido Apellido"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.828"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFichaEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:gravity="center"
+            android:text="ejermplo@gmail.com"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.173" />
+
+        <TextView
+            android:id="@+id/txtFichaFecha"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:width="300dp"
+            android:gravity="center"
+            android:text="00/00/0000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.847" />
+
+        <TextView
+            android:id="@+id/txtFichaNombre"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:width="300dp"
+            android:gravity="center|right"
+            android:text="Nombre"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.176"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -15,12 +82,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout3"
-            android:layout_width="345dp"
-            android:layout_height="561dp"
+            android:layout_width="346dp"
+            android:layout_height="562dp"
             android:background="@color/black"
             android:foregroundGravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -32,11 +99,10 @@
             <fragment
                 android:id="@+id/map2"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
-                android:layout_width="338dp"
-                android:layout_height="555dp"
+                android:layout_width="344dp"
+                android:layout_height="560dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.428"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -50,64 +116,5 @@
             app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <TextView
-        android:id="@+id/txtFichaNombre"
-        android:layout_width="75dp"
-        android:layout_height="wrap_content"
-        android:width="300dp"
-        android:gravity="start"
-        android:text="Nombre"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
-
-    <TextView
-        android:id="@+id/txtFichaEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:width="300dp"
-        android:gravity="center"
-        android:text="ejermplo@gmail.com"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055" />
-
-    <TextView
-        android:id="@+id/txtFichaApe"
-        android:layout_width="160dp"
-        android:layout_height="wrap_content"
-        android:width="300dp"
-        android:text="Apellido Apellido"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
-
-    <TextView
-        android:id="@+id/txtFichaFecha"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:width="300dp"
-        android:gravity="center"
-        android:text="00/00/0000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

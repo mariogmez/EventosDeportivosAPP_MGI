@@ -23,7 +23,6 @@ class LocalizacionUsuariosActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private val db = FirebaseFirestore.getInstance()
     private lateinit var map:GoogleMap
-    private lateinit var  cor:String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,12 +33,45 @@ class LocalizacionUsuariosActivity : AppCompatActivity(), OnMapReadyCallback {
         var correo: String? = objIntent.getStringExtra("correo")
 
         createFragment()
-        cor = (correo.toString())
 
         btnReload.setOnClickListener {
             finish();
             startActivity(getIntent());
         }
+
+        obtener_datos_bbdd(correo!!)
+
+
+    }
+
+    private fun obtener_datos_bbdd(correo:String){
+        db.collection("users").document(correo).get().addOnSuccessListener {
+
+
+            var nom: String? = it.get("nombre") as String?
+            var apellido: String? = it.get("apellidos") as String?
+            var fecha:String?  = it.get("edad") as String?
+            var verificado:Boolean? = it.get("verificado") as Boolean?
+            var admin:Boolean? = it.get("admin")as Boolean?
+            var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
+            var lat:Double = it.get("lat") as Double
+            var lon:Double = it.get("lon") as Double
+            var usu = User(correo, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, lat,lon)
+
+            val coor =LatLng(usu.lat, usu.lon)
+            val marker: MarkerOptions = MarkerOptions().position(coor)
+            map.addMarker(marker)
+            map.animateCamera(CameraUpdateFactory.newLatLngZoom(coor, 16f), 3000,null)
+
+            rellenar_campos(usu)
+
+        }
+    }
+
+    private fun rellenar_campos(usu:User){
+        txtNombreUsuario.text = usu.nombre
+        txtApellidosUsuario.text = usu.apellidos
+        txtFechaUsuario.text = usu.edad
     }
 
     private fun createFragment() {
@@ -54,28 +86,9 @@ class LocalizacionUsuariosActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun createMarker() {
-
-        if (cor != null) {
-            db.collection("users").document(cor).get().addOnSuccessListener {
-
-
-                var nom: String? = it.get("nombre") as String?
-                var apellido: String? = it.get("apellidos") as String?
-                var fecha:String?  = it.get("edad") as String?
-                var verificado:Boolean? = it.get("verificado") as Boolean?
-                var admin:Boolean? = it.get("admin")as Boolean?
-                var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
-                var lat:Double = it.get("lat") as Double
-                var lon:Double = it.get("lon") as Double
-                var usu = User(cor, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, lat,lon)
-
-                val coor =LatLng(usu.lat, usu.lon)
-                val marker: MarkerOptions = MarkerOptions().position(coor)
-                map.addMarker(marker)
-                map.animateCamera(CameraUpdateFactory.newLatLngZoom(coor, 16f), 3000,null)
-
-            }
-        }
+        val objIntent: Intent = intent
+        var correo: String? = objIntent.getStringExtra("correo")
+        obtener_datos_bbdd(correo!!)
 
     }
 

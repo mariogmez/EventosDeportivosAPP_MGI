@@ -58,7 +58,8 @@ class GestionUsuariosPorEvento : AppCompatActivity() {
                 var lat: Double = it.get("lat") as Double
                 var lon :Double = it.get("lon") as Double
                 var listEve: ArrayList<String> = it.get("listEve") as ArrayList<String>
-                var event = Evento(id, nombre.toString(),fecha.toString(),hora.toString(),lat,lon, listEve)
+                var activado:Boolean = it.get("activado") as Boolean
+                var event = Evento(id, nombre.toString(),fecha.toString(),hora.toString(),lat,lon, listEve, activado)
                 even = (event)
 
                 for (i in 0 until even.listEve.size) {

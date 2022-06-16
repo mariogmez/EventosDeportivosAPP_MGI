@@ -61,6 +61,7 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
 
                 val intent = Intent(context, EventoActivityUsers::class.java)
                 intent.putExtra("id", evento.idEvento.toString())
+                intent.putExtra("correo", correo)
                 itemView.context.startActivity(intent)
 
             })
@@ -104,7 +105,8 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
                         "hora" to evento.hora,
                         "lat" to evento.lat,
                         "lon" to evento.lon,
-                        "listEve" to evento.listEve
+                        "listEve" to evento.listEve,
+                        "activado" to evento.activado
                     )
                 )
             }

@@ -38,6 +38,8 @@ id checkBox
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
+id constraintLayout5
 id divider
 id divider2
 id divider3
@@ -53,6 +55,7 @@ id map
 id map2
 id map3
 id map4
+id pillActivar
 id rbtnTrayectoDLG
 id rbtnUbicacionDLG
 id swtEventoUsu
@@ -75,7 +78,11 @@ id textView7
 id textView8
 id textView9
 id txtApellidosRG
+id txtApellidosUsuario
 id txtBtnListaUsus
+id txtCampos
+id txtCampos2
+id txtCampos3
 id txtContrasenia
 id txtCorreoList
 id txtCorreoListUsu
@@ -86,6 +93,7 @@ id txtEventoList
 id txtFechaDLG
 id txtFechaEve
 id txtFechaEveUsu
+id txtFechaUsuario
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
@@ -93,10 +101,12 @@ id txtFichaNombre
 id txtHoraDLG
 id txtHoraEve
 id txtHoraEveUsu
+id txtInfoUsuario
 id txtNombreDLG
 id txtNombreEve
 id txtNombreEveUsu
 id txtNombreRG
+id txtNombreUsuario
 id txtRegistro
 id txtUno
 layout activity_admin

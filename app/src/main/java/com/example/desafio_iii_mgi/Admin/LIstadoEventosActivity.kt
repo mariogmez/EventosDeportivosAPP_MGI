@@ -48,46 +48,7 @@ class LIstadoEventosActivity : AppCompatActivity() {
 
         // MUESTRA UN DIALOG MODIFICADO PARA AÑADIR NUEVOS EVENTOS
         btnFlotante.setOnClickListener{
-
-            val builder = AlertDialog.Builder(this)
-            val view = layoutInflater.inflate(R.layout.activity_dialog,null)
-
-            builder.setView(view) // <- se le pasa la vista creada al builder
-            val dialog = builder.create() //<- se crea el dialog
-            dialog.show() //<- se muestra el showdialog
-
-            val cajaFechaSWD = view.txtFechaDLG
-            val cajaHoraSWD = view.txtHoraDLG
-            val cajaNombreSWD = view.txtNombreDLG
-
-            cajaFechaSWD.setOnClickListener{
-                showDatePickerDIalog(cajaFechaSWD)
-            }
-
-            cajaHoraSWD.setOnClickListener{
-                showTimePickerDialog(cajaHoraSWD)
-            }
-
-            var lon:Double = 0.0
-            var lat:Double = 0.0
-
-            // AÑADE LOS CAMPOS DEL DIALOG A FIREBASE
-            view.btnConfirmarDLG.setOnClickListener {
-                db.collection("eventos").document().set(
-                    hashMapOf(
-                        "nombre" to cajaNombreSWD.text.toString(),
-                        "fecha" to cajaFechaSWD.text.toString(),
-                        "hora" to cajaHoraSWD.text.toString(),
-                        "lat" to lat,
-                        "lon" to lon,
-                        "listEve" to arrayListOf("")
-
-                    )
-                )
-                Toast.makeText(this, "Evento creado correctamente...", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, LIstadoEventosActivity::class.java)
-                startActivity(intent)
-            }
+            cargar_dialog()
         }
 
         /*
@@ -108,6 +69,49 @@ class LIstadoEventosActivity : AppCompatActivity() {
         mRecyclerViewEvent.adapter = mAdapterEvent
 
 
+    }
+
+    private fun cargar_dialog(){
+        val builder = AlertDialog.Builder(this)
+        val view = layoutInflater.inflate(R.layout.activity_dialog,null)
+
+        builder.setView(view) // <- se le pasa la vista creada al builder
+        val dialog = builder.create() //<- se crea el dialog
+        dialog.show() //<- se muestra el showdialog
+
+        val cajaFechaSWD = view.txtFechaDLG
+        val cajaHoraSWD = view.txtHoraDLG
+        val cajaNombreSWD = view.txtNombreDLG
+
+        cajaFechaSWD.setOnClickListener{
+            showDatePickerDIalog(cajaFechaSWD)
+        }
+
+        cajaHoraSWD.setOnClickListener{
+            showTimePickerDialog(cajaHoraSWD)
+        }
+
+        var lon:Double = 0.0
+        var lat:Double = 0.0
+
+        // AÑADE LOS CAMPOS DEL DIALOG A FIREBASE
+        view.btnConfirmarDLG.setOnClickListener {
+            db.collection("eventos").document().set(
+                hashMapOf(
+                    "nombre" to cajaNombreSWD.text.toString(),
+                    "fecha" to cajaFechaSWD.text.toString(),
+                    "hora" to cajaHoraSWD.text.toString(),
+                    "lat" to lat,
+                    "lon" to lon,
+                    "listEve" to arrayListOf(""),
+                    "activado" to true
+
+                )
+            )
+            Toast.makeText(this, "Evento creado correctamente...", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, LIstadoEventosActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
@@ -179,7 +183,8 @@ class LIstadoEventosActivity : AppCompatActivity() {
                     dc.document.get("hora").toString(),
                     dc.document.get("lat") as Double,
                     dc.document.get("lon") as Double,
-                    dc.document.get("listEve") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
+                    dc.document.get("listEve") as ArrayList<String>, /* = java.util.ArrayList<kotlin.String> */
+                    dc.document.get("activado") as Boolean
                 )
                 miArrayEvent.add(al)
             }

@@ -2840,6 +2840,8 @@ id constraint
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
+id constraintLayout5
 id container
 id content
 id contentPanel
@@ -3091,6 +3093,7 @@ id percent
 id phone_button
 id phone_layout
 id phone_number
+id pillActivar
 id pin
 id position
 id postLayout
@@ -3254,7 +3257,11 @@ id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
 id txtApellidosRG
+id txtApellidosUsuario
 id txtBtnListaUsus
+id txtCampos
+id txtCampos2
+id txtCampos3
 id txtContrasenia
 id txtCorreoList
 id txtCorreoListUsu
@@ -3265,6 +3272,7 @@ id txtEventoList
 id txtFechaDLG
 id txtFechaEve
 id txtFechaEveUsu
+id txtFechaUsuario
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
@@ -3272,10 +3280,12 @@ id txtFichaNombre
 id txtHoraDLG
 id txtHoraEve
 id txtHoraEveUsu
+id txtInfoUsuario
 id txtNombreDLG
 id txtNombreEve
 id txtNombreEveUsu
 id txtNombreRG
+id txtNombreUsuario
 id txtRegistro
 id txtUno
 id unchecked

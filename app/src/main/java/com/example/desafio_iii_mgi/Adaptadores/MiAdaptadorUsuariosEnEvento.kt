@@ -93,15 +93,16 @@ class MiAdaptadorUsuariosEnEvento : RecyclerView.Adapter<MiAdaptadorUsuariosEnEv
                 var lat: Double = it.get("lat") as Double
                 var lon :Double = it.get("lon") as Double
                 var listEve: ArrayList<String> = it.get("listEve") as ArrayList<String>
-                var event = Evento(id, nombre.toString(),fecha.toString(),hora.toString(),lat,lon, listEve)
+                var activado:Boolean = it.get("activado") as Boolean
+                var event = Evento(id, nombre.toString(),fecha.toString(),hora.toString(),lat,lon, listEve, activado)
 
                 if (correos != null) {event.listEve.remove(correos)}
-                insertar_bbdd(id,correos,event)
+                insertar_bbdd(id,event)
 
             }
         }
 
-        fun insertar_bbdd(id:String, correos:String, event:Evento){
+        fun insertar_bbdd(id:String, event:Evento){
             db.collection("eventos").document(id).set(
                 hashMapOf(
                     "nombre" to event.nombre,
@@ -109,7 +110,9 @@ class MiAdaptadorUsuariosEnEvento : RecyclerView.Adapter<MiAdaptadorUsuariosEnEv
                     "hora" to event.hora,
                     "lat" to event.lat,
                     "lon" to event.lon,
-                    "listEve" to event.listEve
+                    "listEve" to event.listEve,
+                    "activado" to event.activado
+
                 )
             )
         }

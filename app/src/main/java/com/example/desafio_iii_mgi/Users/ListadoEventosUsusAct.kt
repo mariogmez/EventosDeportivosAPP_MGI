@@ -69,6 +69,7 @@ class ListadoEventosUsusAct : AppCompatActivity() {
     suspend fun getDataFromFireStore()  : QuerySnapshot? {
         return try{
             val data = db.collection("eventos")
+                .whereEqualTo("activado",true)
                 .get()
                 .await()
             data
@@ -88,7 +89,8 @@ class ListadoEventosUsusAct : AppCompatActivity() {
                     dc.document.get("hora").toString(),
                     dc.document.get("lat") as Double,
                     dc.document.get("lon") as Double,
-                    dc.document.get("listEve") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
+                    dc.document.get("listEve") as ArrayList<String>, /* = java.util.ArrayList<kotlin.String> */
+                    dc.document.get("activado") as Boolean
                 )
                 miArrayEventUsu.add(al)
             }

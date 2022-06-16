@@ -96,10 +96,6 @@
         "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_list_usu_gest.xml.flat",
-        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/list_usu_gest.xml"
-    },
-    {
         "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -126,6 +122,10 @@
     {
         "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable-xxxhdpi_ic_pwd_icon.png.flat",
         "source": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-main-38:\\drawable-xxxhdpi\\ic_pwd_icon.png"
+    },
+    {
+        "merged": "com.example.desafio_iii_mgi.app-merged_res-36:/layout_activity_ficha_usuario.xml.flat",
+        "source": "com.example.desafio_iii_mgi.app-main-38:/layout/activity_ficha_usuario.xml"
     },
     {
         "merged": "C:\\Users\\mario\\.gradle\\daemon\\7.3.3\\com.example.desafio_iii_mgi.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
