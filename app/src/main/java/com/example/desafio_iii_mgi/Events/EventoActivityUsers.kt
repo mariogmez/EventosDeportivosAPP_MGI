@@ -137,27 +137,30 @@ class EventoActivityUsers : AppCompatActivity(), OnMapReadyCallback, GoogleMap.O
 
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
-
-        modificar_pos(correo!!, loc)
+        var bol:Boolean? = objIntent.getStringExtra("bol").toBoolean()
+        modificar_pos(correo!!, loc, bol!!)
 
 
     }
 
-    private fun modificar_pos(correo:String, loc: Location){
-        db.collection("users").document(correo).get().addOnSuccessListener {
+    private fun modificar_pos(correo:String, loc: Location, bol:Boolean){
+        if (bol){
+            db.collection("users").document(correo).get().addOnSuccessListener {
 
 
-            var nom: String? = it.get("nombre") as String?
-            var apellido: String? = it.get("apellidos") as String?
-            var fecha:String?  = it.get("edad") as String?
-            var verificado:Boolean? = it.get("verificado") as Boolean?
-            var admin:Boolean? = it.get("admin")as Boolean?
-            var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
-            var usu = User(correo, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, 0.0,0.0)
+                var nom: String? = it.get("nombre") as String?
+                var apellido: String? = it.get("apellidos") as String?
+                var fecha:String?  = it.get("edad") as String?
+                var verificado:Boolean? = it.get("verificado") as Boolean?
+                var admin:Boolean? = it.get("admin")as Boolean?
+                var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
+                var usu = User(correo, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, 0.0,0.0)
 
 
-            set_location(usu, loc)
+                set_location(usu, loc)
+            }
         }
+
     }
 
     private fun set_location(usu: User, loc: Location){

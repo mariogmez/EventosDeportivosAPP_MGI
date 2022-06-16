@@ -94,6 +94,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        finishAffinity()
+    }
+
     fun checkUserValues() {
 
 

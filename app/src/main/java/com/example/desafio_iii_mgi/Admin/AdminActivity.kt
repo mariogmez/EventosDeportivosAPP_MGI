@@ -63,7 +63,7 @@ class AdminActivity : AppCompatActivity() {
     fun mostrar_emergente(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Alerta")
-        builder.setMessage("¿Desea salir de la apliacion?")
+        builder.setMessage("¿Desea salir de la aplicacion?")
         builder.setPositiveButton("Si",{ dialogInterface: DialogInterface, i: Int ->
             finishAffinity()
         })
