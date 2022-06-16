@@ -1,15 +1,18 @@
 package com.example.desafio_iii_mgi.Admin
 
+import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.Toast
-import com.example.desafio_iii_mgi.Users.FichaUsuarioActivity
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import com.example.desafio_iii_mgi.MainActivity
 import com.example.desafio_iii_mgi.PrecargasApp.Companion.prefs
 import com.example.desafio_iii_mgi.R
+import com.example.desafio_iii_mgi.Users.FichaUsuarioActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.zxing.BarcodeFormat
@@ -17,7 +20,8 @@ import com.google.zxing.integration.android.IntentIntegrator
 import com.google.zxing.integration.android.IntentResult
 import com.journeyapps.barcodescanner.BarcodeEncoder
 import kotlinx.android.synthetic.main.activity_admin.*
-import java.lang.Exception
+import kotlinx.android.synthetic.main.activity_main.*
+
 
 class AdminActivity : AppCompatActivity() {
 
@@ -52,6 +56,23 @@ class AdminActivity : AppCompatActivity() {
      ** FUNCIONES
      **/
 
+    override fun onBackPressed() {
+        mostrar_emergente()
+    }
+
+    fun mostrar_emergente(){
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Alerta")
+        builder.setMessage("¿Desea salir de la apliacion?")
+        builder.setPositiveButton("Si",{ dialogInterface: DialogInterface, i: Int ->
+            finishAffinity()
+        })
+
+        builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int ->
+        })
+        builder.show()
+    }
+
     private fun establecer_nombre_cabecera(correo:String){
         db.collection("users").document(correo).get().addOnSuccessListener {
             supportActionBar?.title = "Bienvenido " + it.get("nombre") as String?
@@ -82,7 +103,8 @@ class AdminActivity : AppCompatActivity() {
                 Toast.makeText(this, "cerrando sesion", Toast.LENGTH_SHORT).show()
                 prefs.wipe()
                 FirebaseAuth.getInstance().signOut()
-                onBackPressed()
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
             }
 
             R.id.btnMenuEscanearQR -> {

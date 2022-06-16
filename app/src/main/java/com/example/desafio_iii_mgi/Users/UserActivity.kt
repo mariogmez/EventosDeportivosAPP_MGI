@@ -1,12 +1,18 @@
 package com.example.desafio_iii_mgi.Users
 
+import android.content.Context
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.core.view.isVisible
+import com.example.desafio_iii_mgi.MainActivity
 import com.example.desafio_iii_mgi.PrecargasApp
 import com.example.desafio_iii_mgi.R
 import com.google.firebase.auth.FirebaseAuth
@@ -27,6 +33,8 @@ class UserActivity : AppCompatActivity() {
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
         var img: ImageView = findViewById(R.id.imgQrUsers)
+
+
 
 
         if (correo != null) {
@@ -58,6 +66,27 @@ class UserActivity : AppCompatActivity() {
 
     }
 
+    /**
+     ** FUNCIONES
+     **/
+
+    override fun onBackPressed() {
+        mostrar_emergente()
+    }
+
+    fun mostrar_emergente(){
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Alerta")
+        builder.setMessage("¿Desea salir de la apliacion?")
+        builder.setPositiveButton("Si",{ dialogInterface: DialogInterface, i: Int ->
+            finishAffinity()
+        })
+
+        builder.setNegativeButton("No",{ dialogInterface: DialogInterface, i: Int ->
+        })
+        builder.show()
+    }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_opciones, menu)
         return super.onCreateOptionsMenu(menu)
@@ -69,7 +98,9 @@ class UserActivity : AppCompatActivity() {
                 Toast.makeText(this, "cerrando sesion", Toast.LENGTH_SHORT).show()
                 PrecargasApp.prefs.wipe()
                 FirebaseAuth.getInstance().signOut()
-                onBackPressed()
+
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
             }
 
             R.id.btnMenuEscanearQR -> {
