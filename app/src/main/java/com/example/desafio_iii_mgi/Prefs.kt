@@ -9,6 +9,7 @@ class Prefs (val context: Context) {
     val SHARED_CORREO = "correo"
     val SHARED_PWD = "pwd"
     val SHARED_RECOR = "recor"
+    val SHARED_ADM = "adm"
 
     //CREAMOS LA BASE DE DATOS
     val storage = context.getSharedPreferences(SHARED_NAME, 0)
@@ -29,6 +30,10 @@ class Prefs (val context: Context) {
         storage.edit().putBoolean(SHARED_RECOR, recor).apply()
     }
 
+    fun saveAdmin(adm:Boolean){
+        storage.edit().putBoolean(SHARED_ADM, adm).apply()
+    }
+
     /*
      * FUN DEVUELVE VALORES
      */
@@ -43,6 +48,10 @@ class Prefs (val context: Context) {
 
     fun getRecor():Boolean{
         return  storage.getBoolean(SHARED_RECOR, false)
+    }
+
+    fun getAdmin():Boolean{
+        return  storage.getBoolean(SHARED_ADM, false)
     }
 
     fun wipe(){
