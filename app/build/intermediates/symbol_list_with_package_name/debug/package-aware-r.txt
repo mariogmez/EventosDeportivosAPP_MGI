@@ -2792,6 +2792,7 @@ id btnPerfil
 id btnRegistrase
 id btnReload
 id btnSos
+id btnSync
 id btnWithGoogle
 id btn_holder
 id buttonPanel
@@ -2839,6 +2840,8 @@ id constraint
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
+id constraintLayout5
 id container
 id content
 id contentPanel
@@ -2981,6 +2984,7 @@ id linear
 id linearLayout
 id linearLayout2
 id linearLayout3
+id linearUsus
 id listMode
 id list_item
 id logo
@@ -3089,6 +3093,7 @@ id percent
 id phone_button
 id phone_layout
 id phone_number
+id pillActivar
 id pin
 id position
 id postLayout
@@ -3207,8 +3212,6 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
-id textView13
 id textView14
 id textView15
 id textView17
@@ -3253,9 +3256,12 @@ id transition_transform
 id triangle
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
-id txtApellidosListUsu
 id txtApellidosRG
+id txtApellidosUsuario
 id txtBtnListaUsus
+id txtCampos
+id txtCampos2
+id txtCampos3
 id txtContrasenia
 id txtCorreoList
 id txtCorreoListUsu
@@ -3266,6 +3272,7 @@ id txtEventoList
 id txtFechaDLG
 id txtFechaEve
 id txtFechaEveUsu
+id txtFechaUsuario
 id txtFichaApe
 id txtFichaEmail
 id txtFichaFecha
@@ -3273,11 +3280,12 @@ id txtFichaNombre
 id txtHoraDLG
 id txtHoraEve
 id txtHoraEveUsu
+id txtInfoUsuario
 id txtNombreDLG
 id txtNombreEve
 id txtNombreEveUsu
-id txtNombreListUsu
 id txtNombreRG
+id txtNombreUsuario
 id txtRegistro
 id txtUno
 id unchecked

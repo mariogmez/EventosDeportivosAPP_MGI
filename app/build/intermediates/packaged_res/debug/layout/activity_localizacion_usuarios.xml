@@ -18,22 +18,128 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/txtInfoUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informacion del usuario:"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.133"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.161" />
+
+            <TextView
+                android:id="@+id/txtNombreUsuario"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/txtCampos2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.376" />
+
+            <TextView
+                android:id="@+id/txtApellidosUsuario"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/txtCampos3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.567" />
+
+            <TextView
+                android:id="@+id/txtCampos3"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Apellidos:"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.179"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.567" />
+
+            <TextView
+                android:id="@+id/txtCampos2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.179"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.376" />
+
+            <TextView
+                android:id="@+id/txtCampos"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="F.nacimiento:"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.179"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.769" />
+
+            <TextView
+                android:id="@+id/txtFechaUsuario"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="TextView"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/txtCampos"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.769" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout3"
-            android:layout_width="378dp"
-            android:layout_height="694dp"
+            android:layout_width="352dp"
+            android:layout_height="512dp"
             android:background="@color/black"
             android:foregroundGravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.474"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.38">
+            app:layout_constraintVertical_bias="0.874">
 
             <fragment
                 android:id="@+id/map3"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
-                android:layout_width="368dp"
-                android:layout_height="687dp"
+                android:layout_width="350dp"
+                android:layout_height="510dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.428"

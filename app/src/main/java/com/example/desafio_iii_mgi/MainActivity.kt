@@ -62,17 +62,19 @@ class MainActivity : AppCompatActivity() {
 
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(txtEmail.text.toString(), txtContrasenia.text.toString()).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        initUI()
+
                         db.collection("users").document(txtEmail.text.toString()).get().addOnSuccessListener {
                             var compAdm:Boolean = it.get("admin") as Boolean
                             var comp:Boolean = it.get("verificado") as Boolean
-                            
+
                             if (comp == true){
                                 if (compAdm == true) {
+                                    initUI(compAdm)
                                     val intent = Intent(this, AdminActivity::class.java)
                                     intent.putExtra("correo", txtEmail.text.toString())
                                     startActivity(intent)
                                 } else {
+                                    initUI(compAdm)
                                     val intent = Intent(this, UserActivity::class.java)
                                     intent.putExtra("correo", txtEmail.text.toString())
                                     startActivity(intent)
@@ -92,40 +94,50 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        finishAffinity()
+    }
+
     fun checkUserValues() {
+
 
         if (prefs.getRecor() == true) {
 
-            db.collection("users").document(prefs.getCorreo()).get().addOnSuccessListener {
+            if (prefs.getPwd() != "xxx"){
+                if (prefs.getAdmin() == true) {
+                    val intent = Intent(this, AdminActivity::class.java)
+                    intent.putExtra("correo", prefs.getCorreo())
+                    startActivity(intent)
+                } else {
+                    val intent = Intent(this, UserActivity::class.java)
+                    intent.putExtra("correo", prefs.getCorreo())
+                    startActivity(intent)
+                }
 
-                var compAdm:Boolean = it.get("admin") as Boolean
-                FirebaseAuth.getInstance().signInWithEmailAndPassword(prefs.getCorreo(), prefs.getPwd()).addOnCompleteListener {
-                        if (it.isSuccessful) {
-                            if (compAdm == true) {
-                                val intent = Intent(this, AdminActivity::class.java)
-                                intent.putExtra("correo", prefs.getCorreo())
-                                startActivity(intent)
-                            } else {
-                                val intent = Intent(this, UserActivity::class.java)
-                                intent.putExtra("correo", prefs.getCorreo())
-                                startActivity(intent)
-                            }
-                        }
-                    }
-
+            }else{
+                val intent = Intent(this, UserActivity::class.java)
+                intent.putExtra("correo", prefs.getCorreo())
+                startActivity(intent)
             }
 
         }
     }
 
 
-    private fun initUI() {
-        if (txtEmail.text.toString().isNotEmpty() || txtContrasenia.text.toString().isNotEmpty()) {
-            prefs.saveCorreo(txtEmail.text.toString())
-            prefs.savePwd(txtContrasenia.text.toString())
-            prefs.saveRecordar(cbxSesion.isChecked)
+    private fun initUI(adm:Boolean) {
 
-        }
+        prefs.saveCorreo(txtEmail.text.toString())
+        prefs.savePwd(txtContrasenia.text.toString())
+        prefs.saveRecordar(cbxSesion.isChecked)
+        prefs.saveAdmin(adm)
+
+    }
+
+    private fun initUI_google(corro:String){
+        prefs.saveCorreo(corro)
+        prefs.savePwd("xxx")
+        prefs.saveRecordar(true)
+        prefs.saveAdmin(false)
     }
 
 
@@ -150,6 +162,7 @@ class MainActivity : AppCompatActivity() {
                                     var comp:Boolean = it.get("verificado") as Boolean
 
                                     if (comp){
+                                        initUI_google(account.email.toString())
                                         val intent = Intent(this, UserActivity::class.java)
                                         intent.putExtra("correo", account.email.toString())
                                         startActivity(intent)

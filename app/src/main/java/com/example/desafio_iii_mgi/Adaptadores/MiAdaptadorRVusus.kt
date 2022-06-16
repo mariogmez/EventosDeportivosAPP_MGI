@@ -51,23 +51,6 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
             correo.text = usuario.correo
             pill.isChecked = usuario.verificado == true
 
-            var nombre:String = ""
-            var apellidos:String = ""
-            var fecha:String = ""
-            var verificado:Boolean = false
-            var admin:Boolean = false
-
-
-            db.collection("users").document(correo.text.toString()).get().addOnSuccessListener {
-                nombre = (it.get("nombre") as String?).toString()
-                apellidos = (it.get("apellidos") as String?).toString()
-                fecha = (it.get("edad") as String?).toString()
-                verificado = it.get("verificado") == true
-                admin = it.get("admin") == true
-
-            }
-
-
             itemView.setOnClickListener(View.OnClickListener {
                 val intent = Intent(context, LocalizacionUsuariosActivity::class.java)
                 intent.putExtra("correo", correo.text.toString())
@@ -76,34 +59,27 @@ class MiAdaptadorRVusus : RecyclerView.Adapter<MiAdaptadorRVusus.ViewHolder>() {
 
             pill.setOnClickListener(View.OnClickListener {
                 if (pill.isChecked){
-                    db.collection("users").document(correo.text.toString()).set(
-                        hashMapOf(
-                            "nombre" to nombre,
-                            "apellidos" to apellidos,
-                            "edad" to fecha,
-                            "verificado" to true,
-                            "admin" to admin,
-                            "listUsu" to arrayListOf(""),
-                            "lat" to usuario.lat,
-                            "lon" to usuario.lon
-                        )
-                    )
+                    modificar_verificado(usuario, true)
                 }else{
-                    db.collection("users").document(correo.text.toString()).set(
-                        hashMapOf(
-                            "nombre" to nombre,
-                            "apellidos" to apellidos,
-                            "edad" to fecha,
-                            "verificado" to false,
-                            "admin" to admin,
-                            "listUsu" to arrayListOf(""),
-                            "lat" to usuario.lat,
-                            "lon" to usuario.lon
-                        )
-                    )
+                    modificar_verificado(usuario, false)
                 }
             })
 
+        }
+
+        private fun modificar_verificado(usuario: User, bol:Boolean){
+            db.collection("users").document(correo.text.toString()).set(
+                hashMapOf(
+                    "nombre" to usuario.nombre,
+                    "apellidos" to usuario.apellidos,
+                    "edad" to usuario.edad,
+                    "verificado" to bol,
+                    "admin" to usuario.admin,
+                    "listUsu" to usuario.listUsu,
+                    "lat" to usuario.lat,
+                    "lon" to usuario.lon
+                )
+            )
         }
 
     }

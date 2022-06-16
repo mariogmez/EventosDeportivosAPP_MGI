@@ -15,7 +15,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.activity_ficha_usuario.*
 
-class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMyLocationChangeListener {
+class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private val db = FirebaseFirestore.getInstance()
     private lateinit var map:GoogleMap
@@ -34,29 +34,32 @@ class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         val objIntent: Intent = intent
         var correo: String? = objIntent.getStringExtra("correo")
 
-        Toast.makeText(this, ""+correo, Toast.LENGTH_SHORT).show()
-        if (correo != null) {
-            db.collection("users").document(correo).get().addOnSuccessListener {
 
-
-                var nom: String? = it.get("nombre") as String?
-                var apellido: String? = it.get("apellidos") as String?
-                var fecha:String?  = it.get("edad") as String?
-                var verificado:Boolean? = it.get("verificado") as Boolean?
-                var admin:Boolean? = it.get("admin")as Boolean?
-                var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
-                var usu = User(correo, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, 0.0,0.0)
-                usurp = (usu)
-                nomb = (nom.toString())
-                txtFichaEmail.text = correo
-                txtFichaNombre.text = nom
-                txtFichaApe.text = apellido
-                txtFichaFecha.text = fecha
-            }
-        }
-
+        cargar_usuario(correo!!)
         createFragment()
     }
+
+
+    private fun cargar_usuario(correo:String){
+        db.collection("users").document(correo).get().addOnSuccessListener {
+
+
+            var nom: String? = it.get("nombre") as String?
+            var apellido: String? = it.get("apellidos") as String?
+            var fecha:String?  = it.get("edad") as String?
+            var verificado:Boolean? = it.get("verificado") as Boolean?
+            var admin:Boolean? = it.get("admin")as Boolean?
+            var listUsu:ArrayList<String> = it.get("listUsu") as ArrayList<String> /* = java.util.ArrayList<kotlin.String> */
+            var usu = User(correo, nom.toString(), apellido.toString(), fecha.toString(), verificado, admin,listUsu, 0.0,0.0)
+
+            txtFichaEmail.text = usu.correo
+            txtFichaNombre.text = usu.nombre
+            txtFichaApe.text = usu.apellidos
+            txtFichaFecha.text = usu.edad
+
+        }
+    }
+
 
     private fun createFragment() {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map2) as SupportMapFragment
@@ -66,7 +69,6 @@ class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
         map.mapType = GoogleMap.MAP_TYPE_HYBRID
-        map.setOnMyLocationChangeListener (this)
         enableLocation()
 
     }
@@ -117,25 +119,4 @@ class FichaUsuarioActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         }
     }
 
-    override fun onMyLocationChange(loc: Location) {
-        var ln = loc.longitude
-        var lt = loc.latitude
-
-        val objIntent: Intent = intent
-        var correo: String? = objIntent.getStringExtra("correo")
-
-        db.collection("users").document(usurp.correo).set(
-            hashMapOf(
-                "nombre" to usurp.nombre,
-                "apellidos" to usurp.apellidos,
-                "edad" to usurp.edad,
-                "verificado" to usurp.verificado,
-                "admin" to usurp.admin,
-                "listUsu" to usurp.listUsu,
-                "lat" to lt,
-                "lon" to ln
-            )
-        )
-
-    }
 }

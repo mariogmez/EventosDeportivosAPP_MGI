@@ -53,9 +53,39 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
 
 
         fun bind(evento: Evento, context: Context, adapter: MiAdaptadorEvenUsus, correo: String?) {
-
             nombreEV.text = evento.nombre
 
+            activar_pills(evento, correo)
+
+            itemView.setOnClickListener(View.OnClickListener {
+
+                val intent = Intent(context, EventoActivityUsers::class.java)
+                intent.putExtra("id", evento.idEvento.toString())
+                intent.putExtra("correo", correo)
+                intent.putExtra("bol", pillUsu.isChecked.toString())
+                itemView.context.startActivity(intent)
+
+            })
+
+            pillUsu.setOnClickListener(View.OnClickListener {
+                if (pillUsu.isChecked){
+                    if (correo != null) {
+                        evento.listEve.add(correo)
+                    }
+                    estado_evento(evento)
+                }else{
+                    if (correo != null) {evento.listEve.remove(correo)}
+                    estado_evento(evento)
+                }
+            })
+
+        }
+
+        /**
+         ** FUNCIONES
+         **/
+
+        private fun activar_pills(evento: Evento,correo: String?){
             if (evento.listEve.size != 0){
                 for (i in 0..evento.listEve.size){
                     var idVar: String? = evento.listEve.elementAtOrNull(i)
@@ -64,55 +94,23 @@ class MiAdaptadorEvenUsus : RecyclerView.Adapter<MiAdaptadorEvenUsus.ViewHolder>
                     }
                 }
             }
+        }
 
-            itemView.setOnClickListener(View.OnClickListener {
+        private fun estado_evento(evento: Evento){
 
-                val intent = Intent(context, EventoActivityUsers::class.java)
-                intent.putExtra("id", evento.idEvento.toString())
-                itemView.context.startActivity(intent)
-
-
-
-            })
-
-            pillUsu.setOnClickListener(View.OnClickListener {
-                if (pillUsu.isChecked){
-
-                    if (correo != null) {
-                        evento.listEve.add(correo)
-                    }
-
-                    if (evento.idEvento != null) {
-                        db.collection("eventos").document(evento.idEvento).set(
-                            hashMapOf(
-                                "nombre" to evento.nombre,
-                                "fecha" to evento.fecha,
-                                "hora" to evento.hora,
-                                "lat" to evento.lat,
-                                "lon" to evento.lon,
-                                "listEve" to evento.listEve
-                            )
-                        )
-                    }
-
-                }else{
-                    if (correo != null) {evento.listEve.remove(correo)}
-                    if (evento.idEvento != null) {
-                        db.collection("eventos").document(evento.idEvento).set(
-                            hashMapOf(
-                                "nombre" to evento.nombre,
-                                "fecha" to evento.fecha,
-                                "hora" to evento.hora,
-                                "lat" to evento.lat,
-                                "lon" to evento.lon,
-                                "listEve" to evento.listEve
-                            )
-                        )
-                    }
-
-                }
-            })
-
+            if (evento.idEvento != null) {
+                db.collection("eventos").document(evento.idEvento).set(
+                    hashMapOf(
+                        "nombre" to evento.nombre,
+                        "fecha" to evento.fecha,
+                        "hora" to evento.hora,
+                        "lat" to evento.lat,
+                        "lon" to evento.lon,
+                        "listEve" to evento.listEve,
+                        "activado" to evento.activado
+                    )
+                )
+            }
         }
 
     }
