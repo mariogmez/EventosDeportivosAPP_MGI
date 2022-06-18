@@ -1,14 +1,16 @@
 package com.example.desafio_iii_mgi.Events
 
+import android.app.Activity
 import android.content.DialogInterface
 import android.content.Intent
-import android.net.http.SslCertificate
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.example.desafio_iii_mgi.Admin.AdminActivity
 import com.example.desafio_iii_mgi.Admin.GestionUsuariosPorEvento
+import com.example.desafio_iii_mgi.Auxiliar
 import com.example.desafio_iii_mgi.R
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -16,16 +18,25 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.type.LatLng
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.ktx.storage
 import kotlinx.android.synthetic.main.activity_evento.*
 import kotlinx.android.synthetic.main.activity_ficha_usuario.*
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.StringBuilder
+import java.io.FileNotFoundException
+import java.io.InputStream
+import kotlin.random.Random
+
 
 class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapLongClickListener {
     private val db = FirebaseFirestore.getInstance()
     private lateinit var map:GoogleMap
     private lateinit var even:Evento
+    private val CODE_GALLERY = 1
+
+    lateinit var photo: Bitmap
+    val storage = Firebase.storage
+    val storageRef = storage.reference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +47,9 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
         val objIntent: Intent = intent
         var id: String? = objIntent.getStringExtra("id")
 
-
+        btnGaleria.setOnClickListener {
+            mostrar_emergente()
+        }
 
         if (id != null) {
             db.collection("eventos").document(id).get().addOnSuccessListener {
@@ -62,10 +75,63 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
         }
 
 
-
         createFragment()
 
     }
+
+    fun mostrar_emergente(){
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Alerta")
+        builder.setMessage("¿Que desea hacer?")
+        builder.setPositiveButton("Subir foto",{ dialogInterface: DialogInterface, i: Int ->
+
+            val intent = Intent()
+            intent.type = "image/*"
+            intent.action = Intent.ACTION_GET_CONTENT
+            startActivityForResult(
+                Intent.createChooser(intent, "Seleccione una imagen"),
+                CODE_GALLERY
+            )
+        })
+
+        builder.setNegativeButton("Consultar galeria",{ dialogInterface: DialogInterface, i: Int ->
+        })
+        builder.show()
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == CODE_GALLERY) {
+            if (resultCode === Activity.RESULT_OK) {
+                val selectedImage = data?.data
+                val selectedPath: String? = selectedImage?.path
+                if (selectedPath != null) {
+                    var imageStream: InputStream? = null
+                    try {
+                        imageStream = selectedImage.let {
+                            contentResolver.openInputStream(
+                                it
+                            )
+                        }
+                    } catch (e: FileNotFoundException) {
+                        e.printStackTrace()
+                    }
+                    val bmp = BitmapFactory.decodeStream(imageStream)
+                    photo = Bitmap.createScaledBitmap(bmp, 200, 300, true)
+
+                    val imageRef = storageRef.child("imagen${Random.nextInt()}.jpg")
+                    val uploadTask = imageRef.putBytes(Auxiliar.getBytes(photo)!!)
+                    uploadTask.addOnSuccessListener {
+                        Toast.makeText(this, "Imagen cargada", Toast.LENGTH_SHORT).show()
+                    }.addOnFailureListener {
+                        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        }
+    }
+
+
 
     private fun createFragment() {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment

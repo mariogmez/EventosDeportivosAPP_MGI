@@ -22,6 +22,7 @@ id RVGestUsusEven
 id btnConfirmarDLG
 id btnEventosTotales
 id btnFlotante
+id btnGaleria
 id btnGestEventos
 id btnGestUsuarios
 id btnLogin

@@ -2783,6 +2783,7 @@ id browser_actions_menu_view
 id btnConfirmarDLG
 id btnEventosTotales
 id btnFlotante
+id btnGaleria
 id btnGestEventos
 id btnGestUsuarios
 id btnLogin
