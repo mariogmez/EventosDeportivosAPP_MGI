@@ -1,12 +1,16 @@
 package com.example.desafio_iii_mgi.Events
 
+import android.app.Activity
 import android.content.DialogInterface
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.desafio_iii_mgi.Admin.GestionUsuariosPorEvento
+import com.example.desafio_iii_mgi.Auxiliar
 import com.example.desafio_iii_mgi.R
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -19,6 +23,9 @@ import com.google.firebase.storage.ktx.storage
 import kotlinx.android.synthetic.main.activity_evento.*
 import kotlinx.android.synthetic.main.activity_ficha_usuario.*
 import kotlinx.android.synthetic.main.activity_main.*
+import java.io.FileNotFoundException
+import java.io.InputStream
+import kotlin.random.Random
 
 
 class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapLongClickListener {
@@ -27,6 +34,7 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
     private lateinit var even:Evento
     private val CODE_GALLERY = 1
 
+    lateinit var photo: Bitmap
     val storage = Firebase.storage
     val storageRef = storage.reference
 
@@ -89,6 +97,38 @@ class EventoActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMapL
         builder.setNegativeButton("Consultar galeria",{ dialogInterface: DialogInterface, i: Int ->
         })
         builder.show()
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == CODE_GALLERY) {
+            if (resultCode === Activity.RESULT_OK) {
+                val selectedImage = data?.data
+                val selectedPath: String? = selectedImage?.path
+                if (selectedPath != null) {
+                    var imageStream: InputStream? = null
+                    try {
+                        imageStream = selectedImage.let {
+                            contentResolver.openInputStream(
+                                it
+                            )
+                        }
+                    } catch (e: FileNotFoundException) {
+                        e.printStackTrace()
+                    }
+                    val bmp = BitmapFactory.decodeStream(imageStream)
+                    photo = Bitmap.createScaledBitmap(bmp, 200, 300, true)
+
+                    val imageRef = storageRef.child("imagen${Random.nextInt()}.jpg")
+                    val uploadTask = imageRef.putBytes(Auxiliar.getBytes(photo)!!)
+                    uploadTask.addOnSuccessListener {
+                        Toast.makeText(this, "Imagen cargada", Toast.LENGTH_SHORT).show()
+                    }.addOnFailureListener {
+                        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        }
     }
 
 
